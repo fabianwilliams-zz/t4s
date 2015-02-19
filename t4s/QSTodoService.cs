@@ -17,7 +17,7 @@ namespace t4s
 		const string localDbPath    = "localstore.db";
 
         private MobileServiceClient client;
-        private IMobileServiceSyncTable<ToDoItem> todoTable;
+        private IMobileServiceSyncTable<TweetItem> tweetTable;
 
         private QSTodoService ()
         {
@@ -28,7 +28,7 @@ namespace t4s
             client = new MobileServiceClient (applicationURL, applicationKey);
 
             // Create an MSTable instance to allow us to work with the TodoItem table
-            todoTable = client.GetSyncTable <ToDoItem> ();
+            tweetTable = client.GetSyncTable <TweetItem> ();
         }
 
         public static QSTodoService DefaultService {
@@ -37,12 +37,12 @@ namespace t4s
             }
         }
 
-        public List<ToDoItem> Items { get; private set;}
+        public List<TweetItem> Items { get; private set;}
 
         public async Task InitializeStoreAsync()
         {
 			var store = new MobileServiceSQLiteStore(localDbPath);
-            store.DefineTable<ToDoItem>();
+            store.DefineTable<TweetItem>();
 
             // Uses the default conflict handler, which fails on conflict
             // To use a different conflict handler, pass a parameter to InitializeAsync. For more details, see http://go.microsoft.com/fwlink/?LinkId=521416
@@ -54,7 +54,7 @@ namespace t4s
             try
             {
                 await client.SyncContext.PushAsync();
-                await todoTable.PullAsync("allTodoItems", todoTable.CreateQuery()); // query ID is used for incremental sync
+                await tweetTable.PullAsync("allTodoItems", tweetTable.CreateQuery()); // query ID is used for incremental sync
             }
 
             catch (MobileServiceInvalidOperationException e)
@@ -63,7 +63,7 @@ namespace t4s
             }
         }
 
-        public async Task<List<ToDoItem>> RefreshDataAsync ()
+        public async Task<List<TweetItem>> RefreshDataAsync ()
         {
             try {
 				// update the local store
@@ -72,8 +72,8 @@ namespace t4s
 
                 // This code refreshes the entries in the list view by querying the local TodoItems table.
                 // The query excludes completed TodoItems
-                Items = await todoTable
-                    	.Where (todoItem => todoItem.Complete == false).ToListAsync ();
+                Items = await tweetTable
+                    	.Where (todoItem => todoItem.ContestClosed == false).ToListAsync ();
 
             } catch (MobileServiceInvalidOperationException e) {
                 Console.Error.WriteLine (@"ERROR {0}", e.Message);
@@ -83,24 +83,24 @@ namespace t4s
             return Items;
         }
 
-        public async Task InsertTodoItemAsync (ToDoItem todoItem)
+        public async Task InsertTodoItemAsync (TweetItem tItem)
         {
             try {                
-				await todoTable.InsertAsync (todoItem); // Insert a new TodoItem into the local database. 
+				await tweetTable.InsertAsync (tItem); // Insert a new TodoItem into the local database. 
 				await SyncAsync(); // send changes to the mobile service
 
-                Items.Add (todoItem); 
+                Items.Add (tItem); 
 
             } catch (MobileServiceInvalidOperationException e) {
                 Console.Error.WriteLine (@"ERROR {0}", e.Message);
             }
         }
 
-        public async Task CompleteItemAsync (ToDoItem item)
+        public async Task CompleteItemAsync (TweetItem item)
         {
             try {
-				item.Complete = true; 
-                await todoTable.UpdateAsync (item); // update todo item in the local database
+				item.ContestClosed = true; 
+                await tweetTable.UpdateAsync (item); // update todo item in the local database
 				await SyncAsync(); // send changes to the mobile service
 
                 Items.Remove (item);

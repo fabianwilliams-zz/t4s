@@ -63,7 +63,7 @@ namespace t4s
 			// has been reused and was previously greyed out
 			var label = (UILabel)cell.ViewWithTag (1);
 			label.TextColor = UIColor.Black;
-			label.Text = todoService.Items [indexPath.Row].Text;
+			label.Text = todoService.Items [indexPath.Row].POneName;
 
 			return cell;
 		}
@@ -80,7 +80,7 @@ namespace t4s
 			var item = todoService.Items [indexPath.Row];
 
 			// If the item is complete, then this is just pending upload. Editing is not allowed
-			if (item.Complete)
+			if (item.ContestClosed)
 				return UITableViewCellEditingStyle.None;
 
 			// Otherwise, allow the delete button to appear
@@ -111,9 +111,9 @@ namespace t4s
 			if (string.IsNullOrWhiteSpace (itemText.Text))
 				return;
 
-			var newItem = new ToDoItem {
-				Text = itemText.Text, 
-				Complete = false
+			var newItem = new TweetItem {
+				POneName = itemText.Text, 
+				ContestClosed = false
 			};
 
 			await todoService.InsertTodoItemAsync (newItem);

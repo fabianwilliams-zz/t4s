@@ -35,3 +35,9 @@ C:\F\t4s\t4s\bin\iPhone\Debug\System.Net.Http.Primitives.xml
 C:\F\t4s\t4s\obj\iPhone\Debug\t4s.csproj.t4s.exe.config
 C:\F\t4s\t4s\obj\iPhone\Debug\t4s.exe
 C:\F\t4s\t4s\obj\iPhone\Debug\t4s.pdb
+C:\F\t4s\t4s\obj\iPhone\Debug\ibtool\MainStoryboard_iPhone.storyboardc\138-view-139.nib
+C:\F\t4s\t4s\obj\iPhone\Debug\ibtool\MainStoryboard_iPhone.storyboardc\28-view-29.nib
+C:\F\t4s\t4s\obj\iPhone\Debug\ibtool\MainStoryboard_iPhone.storyboardc\377-view-378.nib
+C:\F\t4s\t4s\obj\iPhone\Debug\ibtool\MainStoryboard_iPhone.storyboardc\UIViewController-138.nib
+C:\F\t4s\t4s\obj\iPhone\Debug\ibtool\MainStoryboard_iPhone.storyboardc\UIViewController-16.nib
+C:\F\t4s\t4s\obj\iPhone\Debug\ibtool\MainStoryboard_iPhone.storyboardc\UIViewController-377.nib
