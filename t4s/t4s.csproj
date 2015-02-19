@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProductVersion>10.0.0</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{07F1CD1B-626F-4BE5-9840-97B44CBB94C9}</ProjectGuid>
     <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
@@ -102,6 +100,18 @@
     <Compile Include="QSTodoService.cs" />
     <Compile Include="ToDoItem.cs" />
     <Compile Include="TweetItem.cs" />
+    <Compile Include="tfsRootViewController.cs" />
+    <Compile Include="tfsRootViewController.designer.cs">
+      <DependentUpon>tfsRootViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addSCViewController.cs" />
+    <Compile Include="addSCViewController.designer.cs">
+      <DependentUpon>addSCViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tweetnowViewController.cs" />
+    <Compile Include="tweetnowViewController.designer.cs">
+      <DependentUpon>tweetnowViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
