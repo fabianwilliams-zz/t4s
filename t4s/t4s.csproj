@@ -112,6 +112,11 @@
     <Compile Include="tweetnowViewController.designer.cs">
       <DependentUpon>tweetnowViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="showContestService.cs" />
+    <Compile Include="shSessionViewController.cs" />
+    <Compile Include="shSessionViewController.designer.cs">
+      <DependentUpon>shSessionViewController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
