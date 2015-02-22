@@ -22,9 +22,9 @@ namespace t4s
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UITextView txtView { get; set; }
 
-		[Action ("HandleTouchUpInside:")]
+		[Action ("Clicked:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		partial void HandleTouchUpInside (UIButton sender);
+		partial void Clicked (UIButton sender);
 
 		void ReleaseDesignerOutlets ()
 		{

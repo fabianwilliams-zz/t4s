@@ -245,7 +245,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="HandleTouchUpInside:" destination="788" id="900" eventType="touchUpInside"/>
+                                    <action selector="Clicked:" destination="788" id="908" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                         </subviews>
