@@ -42,6 +42,10 @@ namespace t4s
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UITextField txtSpeakerTwitter { get; set; }
 
+		[Action ("Clicked:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void Clicked (UIButton sender);
+
 		void ReleaseDesignerOutlets ()
 		{
 			if (btnAddEvent != null) {
