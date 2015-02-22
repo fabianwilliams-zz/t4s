@@ -11,34 +11,30 @@ using System.CodeDom.Compiler;
 
 namespace t4s
 {
-	[Register ("tweetnowViewController")]
-	partial class tweetnowViewController
+	[Register ("TwitterViewController")]
+	partial class TwitterViewController
 	{
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIButton btnT4S { get; set; }
+		UIButton btnCompose { get; set; }
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UILabel lblTweetRecordAdded { get; set; }
+		UITextView txtView { get; set; }
 
-		[Outlet]
+		[Action ("HandleTouchUpInside:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UITextView txtMyTweet { get; set; }
+		partial void HandleTouchUpInside (UIButton sender);
 
 		void ReleaseDesignerOutlets ()
 		{
-			if (btnT4S != null) {
-				btnT4S.Dispose ();
-				btnT4S = null;
+			if (btnCompose != null) {
+				btnCompose.Dispose ();
+				btnCompose = null;
 			}
-			if (lblTweetRecordAdded != null) {
-				lblTweetRecordAdded.Dispose ();
-				lblTweetRecordAdded = null;
-			}
-			if (txtMyTweet != null) {
-				txtMyTweet.Dispose ();
-				txtMyTweet = null;
+			if (txtView != null) {
+				txtView.Dispose ();
+				txtView = null;
 			}
 		}
 	}

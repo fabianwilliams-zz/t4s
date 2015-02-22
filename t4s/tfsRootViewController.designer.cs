@@ -20,10 +20,6 @@ namespace t4s
 
 		[Outlet]
 		[GeneratedCode ("iOS Designer", "1.0")]
-		UIButton tweetforcashbutton { get; set; }
-
-		[Outlet]
-		[GeneratedCode ("iOS Designer", "1.0")]
 		UIButton viewcontestbutton { get; set; }
 
 		void ReleaseDesignerOutlets ()
@@ -31,10 +27,6 @@ namespace t4s
 			if (AddItemButton != null) {
 				AddItemButton.Dispose ();
 				AddItemButton = null;
-			}
-			if (tweetforcashbutton != null) {
-				tweetforcashbutton.Dispose ();
-				tweetforcashbutton = null;
 			}
 			if (viewcontestbutton != null) {
 				viewcontestbutton.Dispose ();

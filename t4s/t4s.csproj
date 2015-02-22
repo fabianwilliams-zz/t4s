@@ -108,15 +108,16 @@
     <Compile Include="addSCViewController.designer.cs">
       <DependentUpon>addSCViewController.cs</DependentUpon>
     </Compile>
-    <Compile Include="tweetnowViewController.cs" />
-    <Compile Include="tweetnowViewController.designer.cs">
-      <DependentUpon>tweetnowViewController.cs</DependentUpon>
-    </Compile>
     <Compile Include="showContestService.cs" />
     <Compile Include="shSessionViewController.cs" />
     <Compile Include="shSessionViewController.designer.cs">
       <DependentUpon>shSessionViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="TwitterViewController.cs" />
+    <Compile Include="TwitterViewController.designer.cs">
+      <DependentUpon>TwitterViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwitterService.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
