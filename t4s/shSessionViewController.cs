@@ -1,7 +1,9 @@
 using System;
+using System.Drawing;
 using MonoTouch.UIKit;
 using MonoTouch.Foundation;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace t4s
 {
@@ -34,6 +36,19 @@ namespace t4s
 			RefreshControl.EndRefreshing ();
 
 			TableView.ReloadData ();
+		}
+
+		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
+		{
+			if (segue.Identifier == "TweetSegue") {
+				var navctlr = segue.DestinationViewController as sessDViewController;
+				if (navctlr != null) {
+					var source = todoService.Items;
+					var rowPath = TableView.IndexPathForSelectedRow;
+					var item = todoService.Items [rowPath.Row];
+					navctlr.SetTask(this, item);
+				}
+			}
 		}
 
 		#region UITableView methods

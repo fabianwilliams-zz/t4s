@@ -118,6 +118,11 @@
       <DependentUpon>TwitterViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="TwitterService.cs" />
+    <Compile Include="sessDViewController.cs" />
+    <Compile Include="sessDViewController.designer.cs">
+      <DependentUpon>sessDViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RootTableSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
