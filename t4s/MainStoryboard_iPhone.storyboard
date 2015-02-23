@@ -139,7 +139,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="779" fixedFrame="YES">
-                                <rect key="frame" x="20" y="330" width="280" height="30"/>
+                                <rect key="frame" x="0.0" y="311" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Event Contest">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -170,7 +170,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="379" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="370" y="732"/>
+            <point key="canvasLocation" x="367" y="667"/>
         </scene>
         <scene sceneID="699">
             <objects>
