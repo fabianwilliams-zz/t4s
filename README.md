@@ -27,6 +27,8 @@ I also discussed Application Lifecycle Management related to Mobile Development 
 <li>Summary
 </ol>
 
+<p> A teaser may be found here https://t.co/GqNQXbw96H </p>
+
 For all questions or comments please contact me on twitter at <a href="https://twitter.com/fabianwilliams">@fabianwilliams</a> or through git hub 
 
 
