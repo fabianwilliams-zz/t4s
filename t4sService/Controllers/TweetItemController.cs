@@ -6,9 +6,11 @@ using System.Web.Http.OData;
 using Microsoft.WindowsAzure.Mobile.Service;
 using t4sService.DataObjects;
 using t4sService.Models;
+using Microsoft.WindowsAzure.Mobile.Service.Security;
 
 namespace t4sService.Controllers
 {
+    [AuthorizeLevel(AuthorizationLevel.User)]
     public class TweetItemController : TableController<TweetItem>
     {
         protected override void Initialize(HttpControllerContext controllerContext)

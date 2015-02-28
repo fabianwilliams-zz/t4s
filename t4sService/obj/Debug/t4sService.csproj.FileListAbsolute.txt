@@ -132,3 +132,14 @@ C:\F\t4s\t4sService\bin\zh-Hant\System.Spatial.resources.dll
 C:\F\t4s\t4sService\obj\Debug\t4sService.csprojResolveAssemblyReference.cache
 C:\F\t4s\t4sService\obj\Debug\t4sService.dll
 C:\F\t4s\t4sService\obj\Debug\t4sService.pdb
+C:\F\t4s\t4sService\bin\Microsoft.WindowsAzure.Mobile.Service.Security.dll
+C:\F\t4s\t4sService\bin\Microsoft.WindowsAzure.Mobile.Service.Security.xml
+C:\F\t4s\t4sService\bin\de\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\es\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\fr\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\it\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\ja\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\ko\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\ru\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\zh-Hans\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll
+C:\F\t4s\t4sService\bin\zh-Hant\Microsoft.WindowsAzure.Mobile.Service.Security.resources.dll

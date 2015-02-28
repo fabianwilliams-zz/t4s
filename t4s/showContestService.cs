@@ -5,12 +5,29 @@ using System.Collections.Generic;
 using Microsoft.WindowsAzure.MobileServices;
 using Microsoft.WindowsAzure.MobileServices.Sync;
 using Microsoft.WindowsAzure.MobileServices.SQLiteStore;
+using MonoTouch.UIKit;
 
 namespace t4s
 {
 	public class showContestService
 	{
-		static showContestService instance = new showContestService();
+        // Mobile Service logged in user
+        private MobileServiceUser user;
+        public MobileServiceUser User { get { return user; } }
+
+        public async Task Authenticate(UIViewController view)
+        {
+            try
+            {
+                user = await client.LoginAsync(view, MobileServiceAuthenticationProvider.Twitter);
+            }
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine(@"ERROR - AUTHENTICATION FAILED {0}", ex.Message);
+            }
+        }
+
+        static showContestService instance = new showContestService();
 
 		const string applicationURL = @"https://t4s.azure-mobile.net/";
 		const string applicationKey = @"QMVgFcvkDURRzHUQrMndYlPUlwLZDB12";
