@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Microsoft.WindowsAzure.Mobile.Service;
 using Microsoft.WindowsAzure.Mobile.Service.ScheduledJobs;
+using Microsoft.WindowsAzure.Mobile.Service.Tables;
 using LinqToTwitter;
 using t4sService.Models;
 using t4sService.DataObjects;
@@ -25,7 +26,8 @@ namespace t4sService
 
             // Create a new context with the supplied schema name.
             context = new t4sContext();
-            //context = new t4sContext(Services.Settings.Name);
+            //context = new t4sContext(Services.Settings.Name.Replace('-', '_'));
+            //context = new t4sContext(Services.Settings);
         }
 
         public async override Task ExecuteAsync()

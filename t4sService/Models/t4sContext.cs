@@ -21,12 +21,12 @@ namespace t4sService.Models
         // Web.config, is the same as the service name when hosted in Azure.
         private const string connectionStringName = "Name=MS_TableConnectionString";
 
-
         public t4sContext() : base(connectionStringName)
         {
         }
 
-        public DbSet<TweetItem> TodoItems { get; set; }
+
+        public DbSet<TweetItem> TweetItems { get; set; }
         public DbSet<Updates> Updates { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
