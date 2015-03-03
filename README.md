@@ -4,7 +4,9 @@ Azure Mobile Services with Xamarin used for SharePoint Evolutions Conf @EvoConf 
 
 The code in this repo is intended for use at <a href="http://www.sharepointevolutionconference.com/speakers.html#fabianwilliams">Fabian Williams</a> mobile session at the <a href="http://www.sharepointevolutionconference.com/">SharePoint Evolutions Conference</a> in London April 20th through 22nd.
 
-This session is titled "" and is located here
+#Details
+<p>This session is titled "Building Mobile Apps using Azure Mobile Services and Xamarin" and is located <a href="http://www.sharepointevolutionconference.com/abstracts.html#azu609">here</a></p>
+<p>My speaker profile is located here <a href="http://www.sharepointevolutionconference.com/speakers.html#fabianwilliams" target=_blank>Fabian's Speaker Profile</a>
 
 As this session is 75 minutes long and the content for this session covers so much technologies and code, here is a blog post series also done for it.
 
