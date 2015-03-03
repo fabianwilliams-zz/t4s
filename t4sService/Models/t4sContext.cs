@@ -23,9 +23,11 @@ namespace t4sService.Models
 
         public t4sContext() : base(connectionStringName)
         {
-        } 
+        }
 
-        public DbSet<TweetItem> TodoItems { get; set; }
+
+        public DbSet<TweetItem> TweetItems { get; set; }
+        public DbSet<Updates> Updates { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

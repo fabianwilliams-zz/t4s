@@ -26,12 +26,23 @@ namespace t4s
 				await RefreshAsync ();
 			};
 
-			await RefreshAsync ();
+			//await RefreshAsync ();
 		}
 
 		private async Task RefreshAsync ()
 		{
-			RefreshControl.BeginRefreshing ();
+            // start of RefreshAsync method
+            if (todoService.User == null)
+            {
+                await showContestService.DefaultService.Authenticate(this);
+                if (todoService.User == null)
+                {
+                    Console.WriteLine("couldn't login!!");
+                    return;
+                }
+            }
+            // rest of RefreshAsync method
+            RefreshControl.BeginRefreshing ();
 			await todoService.RefreshDataAsync ();
 			RefreshControl.EndRefreshing ();
 

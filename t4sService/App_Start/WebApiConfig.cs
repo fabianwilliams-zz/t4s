@@ -15,8 +15,6 @@ namespace t4sService
         {
             // Use this class to set configuration options for your mobile service
             ConfigOptions options = new ConfigOptions();
-            options.LoginProviders.Remove(typeof(AzureActiveDirectoryLoginProvider));
-            options.LoginProviders.Add(typeof(AzureActiveDirectoryExtendedLoginProvider));
 
             // Use this class to set WebAPI configuration options
             HttpConfiguration config = ServiceConfig.Initialize(new ConfigBuilder(options));
