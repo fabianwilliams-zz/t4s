@@ -6,7 +6,7 @@ The code in this repo is intended for use at <a href="http://www.sharepointevolu
 
 #Details
 <p>This session is titled "Building Mobile Apps using Azure Mobile Services and Xamarin" and is located <a href="http://www.sharepointevolutionconference.com/abstracts.html#azu609">here</a></p>
-<p>My speaker profile is located here <a href="http://www.sharepointevolutionconference.com/speakers.html#fabianwilliams" target=_blank>Fabian's Speaker Profile</a>
+<p>My speaker profile is located here <a href="http://www.sharepointevolutionconference.com/speakers.html#fabianwilliams" target=_blank>Fabian's Speaker Profile</a></p>
 
 As this session is 75 minutes long and the content for this session covers so much technologies and code, here is a blog post series also done for it.
 
