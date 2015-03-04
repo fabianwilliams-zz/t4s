@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Http;
+using System.Web.Http.Controllers;
 using Microsoft.WindowsAzure.Mobile.Service;
 using Microsoft.WindowsAzure.Mobile.Service.ScheduledJobs;
 using Microsoft.WindowsAzure.Mobile.Service.Tables;
@@ -16,6 +17,7 @@ namespace t4sService
     // POST request to the path "/jobs/sample".
     public class SampleJob : ScheduledJob
     {
+        
         private t4sContext context;
         private string accessToken;
         private string accessTokenSecret;
@@ -25,9 +27,9 @@ namespace t4sService
             base.Initialize(scheduledJobDescriptor, cancellationToken);
 
             // Create a new context with the supplied schema name.
-            context = new t4sContext();
+            //context = new t4sContext();
             //context = new t4sContext(Services.Settings.Name.Replace('-', '_'));
-            //context = new t4sContext(Services.Settings);
+            context = new t4sContext(Services.Settings);
         }
 
         public async override Task ExecuteAsync()
@@ -80,12 +82,14 @@ namespace t4sService
                 .Where(t => !t.Text.StartsWith("RT") && t.InReplyToUserID == 0);
             Services.Log.Info("Fetched " + filteredTweets.Count()
                 + " new tweets from Twitter.");
+        
 
             // Store new tweets in the Updates table.
             foreach (Status tweet in filteredTweets)
             {
-                Updates newTweet =
-                    new Updates
+                Services.Log.Info("Item: " + tweet.TweetIDs + " Text: " + tweet.Text);
+                Update newTweet =
+                    new Update
                     {
                         TweetId = Convert.ToInt64(tweet.StatusID),
                         Text = tweet.Text,
