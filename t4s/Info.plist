@@ -25,10 +25,10 @@
 	<string>7.0</string>
 	<key>CFBundleIconFiles</key>
 	<array>
-		<string>Icon.png</string>
-		<string>Icon@2x.png</string>
-		<string>Icon-72.png</string>
-		<string>Icon-72@2x.png</string>
+		<string>Icon-Small@2x_fw</string>
+		<string>icon7-120_fw</string>
+		<string>Icon@2x</string>
+		<string>Icon_fw</string>
 		<string>Default.png</string>
 		<string>Default@2x.png</string>
 		<string>Default-568h@2x.png</string>
