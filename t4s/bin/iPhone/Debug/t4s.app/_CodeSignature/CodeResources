@@ -6,7 +6,11 @@
 	<dict>
 		<key>Default-568h@2x.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		tdwmA0rA4KEVjJjYAkdniSyzK3I=
+		</data>
+		<key>Default-568h@2x_fw.png</key>
+		<data>
+		tdwmA0rA4KEVjJjYAkdniSyzK3I=
 		</data>
 		<key>Default-Landscape.png</key>
 		<data>
@@ -16,6 +20,14 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Default-Landscape@2x~ipad_fw.png</key>
+		<data>
+		mUD8LZ9tEJFRNgCuIVaF1YRjeaY=
+		</data>
+		<key>Default-Landscape~ipad_fw.png</key>
+		<data>
+		ZjJ5KS4zOE3d6yUPwrsiLV0WpnE=
+		</data>
 		<key>Default-Portrait.png</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
@@ -24,13 +36,33 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Default-Portrait@2x~ipad_fw.png</key>
+		<data>
+		NCSGoaVu4E3A6cSnU0jTYRoBZLU=
+		</data>
+		<key>Default-Portrait~ipad_fw.png</key>
+		<data>
+		linxs8Vrq3xq3UM2sQL7VMvUJzA=
+		</data>
 		<key>Default.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		CpvFx3mQ2KD06hIMSMvl5CagDds=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		MwuiYMz9AtfuzXo8Hz6GmC4CNAU=
+		</data>
+		<key>Default@2x_fw.png</key>
+		<data>
+		MwuiYMz9AtfuzXo8Hz6GmC4CNAU=
+		</data>
+		<key>Default_fw.png</key>
+		<data>
+		CpvFx3mQ2KD06hIMSMvl5CagDds=
+		</data>
+		<key>Icon-60@2x_fw.png</key>
+		<data>
+		AHsBXxtbl9SeqvP4cSq7zrHewyA=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
@@ -40,13 +72,33 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Icon-Small-40@2x_fw.png</key>
+		<data>
+		5oRnk05s331oRUeeT5AbroysWTI=
+		</data>
+		<key>Icon-Small@2x_fw.png</key>
+		<data>
+		/xmKQRTOpKza5UGyUKeb5YUFrmU=
+		</data>
+		<key>Icon-Small_fw.png</key>
+		<data>
+		55aIW6HSxq1e8Fj2lq1PBfMUQc8=
+		</data>
 		<key>Icon.png</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		YeKcKTVxmhHRGT/IPCl6eR7eZE8=
+		</data>
+		<key>Icon@2x_fw.png</key>
+		<data>
+		xFp52QsaWC1iaiQF0nl3cebeMfY=
+		</data>
+		<key>Icon_fw.png</key>
+		<data>
+		IcalzPbywMjtNEYfo/O6xgidD4U=
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/551-os-lVi-view-xrR-li-BWs.nib</key>
 		<data>
@@ -58,43 +110,43 @@
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/28-view-29.nib</key>
 		<data>
-		ye43Lg7G/ZqXtkzoEFL2fPP6nOc=
+		WodknbSOiye3XgIYSjnn3a1fxvo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/377-view-378.nib</key>
 		<data>
-		Bqhrdxzg31zb8e+mO4zd/wZlRpE=
+		nVLf1dBUWmgxQKPXICbHW/X9JUc=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/700-view-703.nib</key>
 		<data>
-		LgScAvVr/mZW23dnfSei2isgfnw=
+		o9b/23y2hkn8KA/zTWKNp9e1N/I=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/927-view-928.nib</key>
 		<data>
-		6x8yfebbwYZE3tg7UpWGf7UOdIk=
+		LtE0ZmCivcMYWxfeBe/DusUmCDo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-16.nib</key>
 		<data>
-		7Sm05HU72wuS65xfI4HUeM5L+sc=
+		uDPI+pBzKuM1Bur+GEHkNdV6I00=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-377.nib</key>
 		<data>
-		/tesT9EbuzYF+gG7or/rs5Q3LOg=
+		iChYC2oNrNELXRBy9WD5opyofwU=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-700.nib</key>
 		<data>
-		ieKudjSyf0Y8YJJiYkoqwggiQ1c=
+		/nYQsV3VtJdS1G9zobVd0lAGT1k=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/allsessions.nib</key>
 		<data>
-		pDr/YemSmZu7vOVz5yxQNnmCQeM=
+		dpPTRe97DFVSf9FnROESBgn89k0=
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
-		K1xyZ3GeqHlXsLIkK+ZA4DdPQD8=
+		BTBmUexzeU06p9AJoL/dCC3+WoY=
 		</data>
 		<key>Microsoft.CSharp.dll.mdb</key>
 		<data>
-		8KIKnfxOV5Q5aSXsXs8QFj6YN3M=
+		6O0oAWBxaIBElXfVLCqRRuA+gpE=
 		</data>
 		<key>Microsoft.WindowsAzure.Mobile.Ext.dll</key>
 		<data>
@@ -102,27 +154,27 @@
 		</data>
 		<key>Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</key>
 		<data>
-		aP6Dg9tVt12/Yk+WE+XOFu4smuo=
+		8zmfbT/TwM0/Tc6o0SwZ2RyJbXw=
 		</data>
 		<key>Microsoft.WindowsAzure.Mobile.dll</key>
 		<data>
-		ozCqZW6q7PzqUQ/BMeSVODIq1TQ=
+		LUY6QbK6dIWDj/4DAlNOGfqDYlg=
 		</data>
 		<key>Mono.CSharp.dll</key>
 		<data>
-		IYaqz+sgMYs313lv41FlMW3WR7Y=
+		7FZRxGzLRIXyYhnCvZdwVQsr+AA=
 		</data>
 		<key>Mono.CSharp.dll.mdb</key>
 		<data>
-		NRNBEESRSMzK9XjaoCvFX53hfsE=
+		Aj7JwNHbcLzG/j5k8zbEmLGsXWI=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		8UUIDPwEZGd5v5snsuzcIaAegDk=
+		6qpLwLezxI7Kq2CW9wODtOFOVpI=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll.mdb</key>
 		<data>
-		5ZQFPAhC9PxxI2fGxxzr/bY1Ir0=
+		NLEgkIMyW/MyYU39y3Hr5dO7JKw=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -134,7 +186,7 @@
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
-		IFcJAcT3SUWYLVt+1j0E5yNDLDo=
+		8Q1NQT3f0OPfvN16q97m++qIEJ4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -146,7 +198,7 @@
 		</data>
 		<key>SQLitePCL.dll</key>
 		<data>
-		1Hfqoi7GwAV8tT87HTNfglPraeQ=
+		a1QxKHeAqlL6PEYmstRPoADBKkk=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -154,55 +206,55 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		ZXZ3zhXB0yLmB7dM4psh6wVsHIY=
+		jpWGdsiJQm0SXRfz0TKn8dVSJhw=
 		</data>
 		<key>System.Core.dll.mdb</key>
 		<data>
-		AMGRn8gJPiSDfpwk4QPFh9Bx+SA=
+		lYLY7UIcLb38IcoJfEWA02tDFRI=
 		</data>
 		<key>System.Net.Http.Primitives.dll</key>
 		<data>
-		4pZGV73FTgXmffakSV5mewgDp1Q=
+		u1uySG91w3g6jiIALGwtpe+nQnA=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		4goGbnB3W6gPHtPTen+rPRnP750=
+		5V+dwqnZTbGNzwshuW32Ie8WrEg=
 		</data>
 		<key>System.Net.Http.dll.mdb</key>
 		<data>
-		bafs5YX7kV0xUfpwbcFRVQIEr3A=
+		MkRTm433ZHwwzzEm/6CWQjg1nY4=
 		</data>
 		<key>System.Runtime.Serialization.dll</key>
 		<data>
-		rI2XH/94PRzhNriohPk0Idr1gpQ=
+		lz2CDeZfo4OnZuQHPjCx9cpxbXA=
 		</data>
 		<key>System.Runtime.Serialization.dll.mdb</key>
 		<data>
-		kxN4XAfAp6FxILqCCCjTDWRI4QI=
+		tnhIlR75ZSvdPxhX51/VFFK8L7w=
 		</data>
 		<key>System.Xml.Linq.dll</key>
 		<data>
-		vXMLDNtzRJew0Ng5ObaSKDTXU7Q=
+		8Xwa0Klhn1SdSxOdpjYc9wOGRuM=
 		</data>
 		<key>System.Xml.Linq.dll.mdb</key>
 		<data>
-		WIHjwsPxRWI8XDvqYL8I47nFgLk=
+		9WnbeJ9FiEJWXpH8aFkpf6z361k=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		PIWjQfrozHgPUq8fc9sLEOB1od4=
+		4xBankgJ6uJJN5rVQAArVNhhT1Q=
 		</data>
 		<key>System.Xml.dll.mdb</key>
 		<data>
-		IlzraVyp5kueSGuKemL8+hOySHI=
+		rlAS8MumEkCBQEMiP7N8/t4Cu5M=
 		</data>
 		<key>System.dll</key>
 		<data>
-		dSp9gNv3jpW+XCORMuxPaicUoh4=
+		+fBLnnh2HIQLs8kwIOUtKvF/pQo=
 		</data>
 		<key>System.dll.mdb</key>
 		<data>
-		UyRpTsyMqqqeCGjugNjmKKtjnB0=
+		60aJnTZjXLzcmvVz95+N90omMDg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -212,25 +264,29 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>icon7-120_fw.png</key>
+		<data>
+		gPRvBQSkY8UNqJSQQGdj2MuxvqI=
+		</data>
 		<key>monotouch.dll</key>
 		<data>
-		9NB5y2NBWl2eOhkISoIndqG9P8M=
+		Y2LOHFmvxGnJk/aWVFTEnGzgHNc=
 		</data>
 		<key>monotouch.dll.mdb</key>
 		<data>
-		+DAE6UOXrH8+qyu0/wehBilwDzI=
+		W2TaqmFNwGPs4eB8z1CuuHaN9f8=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		hqS3A4JsfPRBuGUE8q6LrmbnNaM=
+		2lxxnsJ35YjJMRabxWneTE5EBic=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		y8HfhpvC4Bhs3i50IThS+493TY4=
+		E0gcYjuOsfSyshH7+75WwkZjW1c=
 		</data>
 		<key>t4s.exe</key>
 		<data>
-		6MaXEPHH7P1XH1nIEOuXJ4KQLLk=
+		V35McZRjYVbilrTFccPhVBmf45Y=
 		</data>
 		<key>t4s.exe.config</key>
 		<data>
@@ -238,14 +294,22 @@
 		</data>
 		<key>t4s.exe.mdb</key>
 		<data>
-		8D+11XjiDPV7YsbkdS/c48ky66w=
+		3QBrQw+GrZuZiZcaRHpk+pNjIqQ=
+		</data>
+		<key>tweetforswag.png</key>
+		<data>
+		rOVwbYW3EaWjigwqOvu/RW/4Ygo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Default-568h@2x.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		tdwmA0rA4KEVjJjYAkdniSyzK3I=
+		</data>
+		<key>Default-568h@2x_fw.png</key>
+		<data>
+		tdwmA0rA4KEVjJjYAkdniSyzK3I=
 		</data>
 		<key>Default-Landscape.png</key>
 		<data>
@@ -255,6 +319,14 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Default-Landscape@2x~ipad_fw.png</key>
+		<data>
+		mUD8LZ9tEJFRNgCuIVaF1YRjeaY=
+		</data>
+		<key>Default-Landscape~ipad_fw.png</key>
+		<data>
+		ZjJ5KS4zOE3d6yUPwrsiLV0WpnE=
+		</data>
 		<key>Default-Portrait.png</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
@@ -263,13 +335,33 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Default-Portrait@2x~ipad_fw.png</key>
+		<data>
+		NCSGoaVu4E3A6cSnU0jTYRoBZLU=
+		</data>
+		<key>Default-Portrait~ipad_fw.png</key>
+		<data>
+		linxs8Vrq3xq3UM2sQL7VMvUJzA=
+		</data>
 		<key>Default.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		CpvFx3mQ2KD06hIMSMvl5CagDds=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		MwuiYMz9AtfuzXo8Hz6GmC4CNAU=
+		</data>
+		<key>Default@2x_fw.png</key>
+		<data>
+		MwuiYMz9AtfuzXo8Hz6GmC4CNAU=
+		</data>
+		<key>Default_fw.png</key>
+		<data>
+		CpvFx3mQ2KD06hIMSMvl5CagDds=
+		</data>
+		<key>Icon-60@2x_fw.png</key>
+		<data>
+		AHsBXxtbl9SeqvP4cSq7zrHewyA=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
@@ -279,13 +371,33 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Icon-Small-40@2x_fw.png</key>
+		<data>
+		5oRnk05s331oRUeeT5AbroysWTI=
+		</data>
+		<key>Icon-Small@2x_fw.png</key>
+		<data>
+		/xmKQRTOpKza5UGyUKeb5YUFrmU=
+		</data>
+		<key>Icon-Small_fw.png</key>
+		<data>
+		55aIW6HSxq1e8Fj2lq1PBfMUQc8=
+		</data>
 		<key>Icon.png</key>
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		YeKcKTVxmhHRGT/IPCl6eR7eZE8=
+		</data>
+		<key>Icon@2x_fw.png</key>
+		<data>
+		xFp52QsaWC1iaiQF0nl3cebeMfY=
+		</data>
+		<key>Icon_fw.png</key>
+		<data>
+		IcalzPbywMjtNEYfo/O6xgidD4U=
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/551-os-lVi-view-xrR-li-BWs.nib</key>
 		<data>
@@ -297,43 +409,43 @@
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/28-view-29.nib</key>
 		<data>
-		ye43Lg7G/ZqXtkzoEFL2fPP6nOc=
+		WodknbSOiye3XgIYSjnn3a1fxvo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/377-view-378.nib</key>
 		<data>
-		Bqhrdxzg31zb8e+mO4zd/wZlRpE=
+		nVLf1dBUWmgxQKPXICbHW/X9JUc=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/700-view-703.nib</key>
 		<data>
-		LgScAvVr/mZW23dnfSei2isgfnw=
+		o9b/23y2hkn8KA/zTWKNp9e1N/I=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/927-view-928.nib</key>
 		<data>
-		6x8yfebbwYZE3tg7UpWGf7UOdIk=
+		LtE0ZmCivcMYWxfeBe/DusUmCDo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-16.nib</key>
 		<data>
-		7Sm05HU72wuS65xfI4HUeM5L+sc=
+		uDPI+pBzKuM1Bur+GEHkNdV6I00=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-377.nib</key>
 		<data>
-		/tesT9EbuzYF+gG7or/rs5Q3LOg=
+		iChYC2oNrNELXRBy9WD5opyofwU=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-700.nib</key>
 		<data>
-		ieKudjSyf0Y8YJJiYkoqwggiQ1c=
+		/nYQsV3VtJdS1G9zobVd0lAGT1k=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/allsessions.nib</key>
 		<data>
-		pDr/YemSmZu7vOVz5yxQNnmCQeM=
+		dpPTRe97DFVSf9FnROESBgn89k0=
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
-		K1xyZ3GeqHlXsLIkK+ZA4DdPQD8=
+		BTBmUexzeU06p9AJoL/dCC3+WoY=
 		</data>
 		<key>Microsoft.CSharp.dll.mdb</key>
 		<data>
-		8KIKnfxOV5Q5aSXsXs8QFj6YN3M=
+		6O0oAWBxaIBElXfVLCqRRuA+gpE=
 		</data>
 		<key>Microsoft.WindowsAzure.Mobile.Ext.dll</key>
 		<data>
@@ -341,27 +453,27 @@
 		</data>
 		<key>Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</key>
 		<data>
-		aP6Dg9tVt12/Yk+WE+XOFu4smuo=
+		8zmfbT/TwM0/Tc6o0SwZ2RyJbXw=
 		</data>
 		<key>Microsoft.WindowsAzure.Mobile.dll</key>
 		<data>
-		ozCqZW6q7PzqUQ/BMeSVODIq1TQ=
+		LUY6QbK6dIWDj/4DAlNOGfqDYlg=
 		</data>
 		<key>Mono.CSharp.dll</key>
 		<data>
-		IYaqz+sgMYs313lv41FlMW3WR7Y=
+		7FZRxGzLRIXyYhnCvZdwVQsr+AA=
 		</data>
 		<key>Mono.CSharp.dll.mdb</key>
 		<data>
-		NRNBEESRSMzK9XjaoCvFX53hfsE=
+		Aj7JwNHbcLzG/j5k8zbEmLGsXWI=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
-		8UUIDPwEZGd5v5snsuzcIaAegDk=
+		6qpLwLezxI7Kq2CW9wODtOFOVpI=
 		</data>
 		<key>Mono.Dynamic.Interpreter.dll.mdb</key>
 		<data>
-		5ZQFPAhC9PxxI2fGxxzr/bY1Ir0=
+		NLEgkIMyW/MyYU39y3Hr5dO7JKw=
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -373,7 +485,7 @@
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
-		IFcJAcT3SUWYLVt+1j0E5yNDLDo=
+		8Q1NQT3f0OPfvN16q97m++qIEJ4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -385,7 +497,7 @@
 		</data>
 		<key>SQLitePCL.dll</key>
 		<data>
-		1Hfqoi7GwAV8tT87HTNfglPraeQ=
+		a1QxKHeAqlL6PEYmstRPoADBKkk=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
@@ -393,55 +505,55 @@
 		</data>
 		<key>System.Core.dll</key>
 		<data>
-		ZXZ3zhXB0yLmB7dM4psh6wVsHIY=
+		jpWGdsiJQm0SXRfz0TKn8dVSJhw=
 		</data>
 		<key>System.Core.dll.mdb</key>
 		<data>
-		AMGRn8gJPiSDfpwk4QPFh9Bx+SA=
+		lYLY7UIcLb38IcoJfEWA02tDFRI=
 		</data>
 		<key>System.Net.Http.Primitives.dll</key>
 		<data>
-		4pZGV73FTgXmffakSV5mewgDp1Q=
+		u1uySG91w3g6jiIALGwtpe+nQnA=
 		</data>
 		<key>System.Net.Http.dll</key>
 		<data>
-		4goGbnB3W6gPHtPTen+rPRnP750=
+		5V+dwqnZTbGNzwshuW32Ie8WrEg=
 		</data>
 		<key>System.Net.Http.dll.mdb</key>
 		<data>
-		bafs5YX7kV0xUfpwbcFRVQIEr3A=
+		MkRTm433ZHwwzzEm/6CWQjg1nY4=
 		</data>
 		<key>System.Runtime.Serialization.dll</key>
 		<data>
-		rI2XH/94PRzhNriohPk0Idr1gpQ=
+		lz2CDeZfo4OnZuQHPjCx9cpxbXA=
 		</data>
 		<key>System.Runtime.Serialization.dll.mdb</key>
 		<data>
-		kxN4XAfAp6FxILqCCCjTDWRI4QI=
+		tnhIlR75ZSvdPxhX51/VFFK8L7w=
 		</data>
 		<key>System.Xml.Linq.dll</key>
 		<data>
-		vXMLDNtzRJew0Ng5ObaSKDTXU7Q=
+		8Xwa0Klhn1SdSxOdpjYc9wOGRuM=
 		</data>
 		<key>System.Xml.Linq.dll.mdb</key>
 		<data>
-		WIHjwsPxRWI8XDvqYL8I47nFgLk=
+		9WnbeJ9FiEJWXpH8aFkpf6z361k=
 		</data>
 		<key>System.Xml.dll</key>
 		<data>
-		PIWjQfrozHgPUq8fc9sLEOB1od4=
+		4xBankgJ6uJJN5rVQAArVNhhT1Q=
 		</data>
 		<key>System.Xml.dll.mdb</key>
 		<data>
-		IlzraVyp5kueSGuKemL8+hOySHI=
+		rlAS8MumEkCBQEMiP7N8/t4Cu5M=
 		</data>
 		<key>System.dll</key>
 		<data>
-		dSp9gNv3jpW+XCORMuxPaicUoh4=
+		+fBLnnh2HIQLs8kwIOUtKvF/pQo=
 		</data>
 		<key>System.dll.mdb</key>
 		<data>
-		UyRpTsyMqqqeCGjugNjmKKtjnB0=
+		60aJnTZjXLzcmvVz95+N90omMDg=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -451,25 +563,29 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>icon7-120_fw.png</key>
+		<data>
+		gPRvBQSkY8UNqJSQQGdj2MuxvqI=
+		</data>
 		<key>monotouch.dll</key>
 		<data>
-		9NB5y2NBWl2eOhkISoIndqG9P8M=
+		Y2LOHFmvxGnJk/aWVFTEnGzgHNc=
 		</data>
 		<key>monotouch.dll.mdb</key>
 		<data>
-		+DAE6UOXrH8+qyu0/wehBilwDzI=
+		W2TaqmFNwGPs4eB8z1CuuHaN9f8=
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		hqS3A4JsfPRBuGUE8q6LrmbnNaM=
+		2lxxnsJ35YjJMRabxWneTE5EBic=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		y8HfhpvC4Bhs3i50IThS+493TY4=
+		E0gcYjuOsfSyshH7+75WwkZjW1c=
 		</data>
 		<key>t4s.exe</key>
 		<data>
-		6MaXEPHH7P1XH1nIEOuXJ4KQLLk=
+		V35McZRjYVbilrTFccPhVBmf45Y=
 		</data>
 		<key>t4s.exe.config</key>
 		<data>
@@ -477,7 +593,11 @@
 		</data>
 		<key>t4s.exe.mdb</key>
 		<data>
-		8D+11XjiDPV7YsbkdS/c48ky66w=
+		3QBrQw+GrZuZiZcaRHpk+pNjIqQ=
+		</data>
+		<key>tweetforswag.png</key>
+		<data>
+		rOVwbYW3EaWjigwqOvu/RW/4Ygo=
 		</data>
 	</dict>
 	<key>rules</key>

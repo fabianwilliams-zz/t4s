@@ -1,6 +1,6 @@
-# Version: 8.6.1.26 (98ee412)
+# Version: 8.6.2.26 (9905782)
 # [first argument, ignore] # /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhoneSimulator/Debug/mtouch.exe
-/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.26/bin/mtouch-64 \
+/Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/bin/mtouch-64 \
 	-sdkroot \
 	/Applications/Xcode.app/Contents/Developer \
 	--cache \

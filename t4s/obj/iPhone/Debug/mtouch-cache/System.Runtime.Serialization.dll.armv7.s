@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/1f46d47 Wed Feb 11 04:28:02 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/ba5d2d1 Thu Feb 26 10:59:01 EST 2015)"
 	.asciz "System.Runtime.Serialization.dll"
 	.asciz ""
 
@@ -272,14 +272,14 @@ image_table:
 
 	.long 2
 	.asciz "System.Runtime.Serialization"
-	.asciz "CB3925CD-3A90-4CDA-A184-D040B69FF2A3"
+	.asciz "5DC9A781-C51F-44B9-A4AE-ACB4730318F0"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "A36CB8DA-7BB7-4A6B-A7E5-38A1219AC3FC"
+	.asciz "6E466931-A21F-4620-9A7C-947AFD4E1457"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
@@ -293,7 +293,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "CB3925CD-3A90-4CDA-A184-D040B69FF2A3"
+	.asciz "5DC9A781-C51F-44B9-A4AE-ACB4730318F0"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -849,7 +849,7 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.26/src/mono/mcs/class/System.Runtime.Serialization/System.Runtime.Serialization"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/System.Runtime.Serialization/System.Runtime.Serialization"
 
 	.byte 0
 	.asciz "<unknown>"

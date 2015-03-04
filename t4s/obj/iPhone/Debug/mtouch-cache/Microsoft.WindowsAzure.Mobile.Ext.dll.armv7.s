@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/1f46d47 Wed Feb 11 04:28:02 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/ba5d2d1 Thu Feb 26 10:59:01 EST 2015)"
 	.asciz "Microsoft.WindowsAzure.Mobile.Ext.dll"
 	.asciz ""
 
@@ -29814,28 +29814,28 @@ image_table:
 
 	.long 1,1,3,0,0
 	.asciz "System.Core"
-	.asciz "2E906531-9A6A-470F-9149-E55913936B1C"
+	.asciz "CBF35920-8D5D-4D8B-8939-7035096AAA24"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "A36CB8DA-7BB7-4A6B-A7E5-38A1219AC3FC"
+	.asciz "6E466931-A21F-4620-9A7C-947AFD4E1457"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System"
-	.asciz "72BBB455-68B2-4BA4-A69B-77F0A8C1B822"
+	.asciz "B29EC069-03CA-4FC8-B0FF-5581918C719E"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "monotouch"
-	.asciz "8CEB6F95-BAD4-4A52-88AD-CCF07F65AF11"
+	.asciz "E95B2C4E-5BF3-42FE-9ACF-83A273767759"
 	.asciz ""
 	.asciz "84e04ff9cfb79065"
 	.align 3
@@ -78177,7 +78177,7 @@ Ldebug_line_start:
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.26/src/mono/mcs/class/System.Core/System.Linq"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/System.Core/System.Linq"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Collections.Generic"
 
 	.byte 0

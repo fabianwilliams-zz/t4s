@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/1f46d47 Wed Feb 11 04:28:02 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/ba5d2d1 Thu Feb 26 10:59:01 EST 2015)"
 	.asciz "System.Net.Http.dll"
 	.asciz ""
 
@@ -23733,7 +23733,7 @@ class_name_table:
 
 	.short 109, 0, 0, 0, 0, 2, 0, 55
 	.short 0, 0, 0, 18, 109, 0, 0, 25
-	.short 112, 69, 0, 49, 0, 37, 123, 24
+	.short 112, 69, 0, 49, 0, 37, 0, 24
 	.short 120, 48, 0, 41, 118, 8, 0, 0
 	.short 0, 0, 0, 0, 0, 3, 0, 66
 	.short 0, 39, 0, 0, 0, 44, 0, 0
@@ -23745,7 +23745,7 @@ class_name_table:
 	.short 0, 34, 0, 1, 0, 7, 0, 0
 	.short 0, 22, 0, 0, 0, 0, 0, 21
 	.short 0, 0, 0, 15, 0, 0, 0, 0
-	.short 0, 60, 0, 0, 0, 17, 0, 27
+	.short 0, 60, 123, 0, 0, 17, 0, 27
 	.short 0, 16, 0, 13, 0, 0, 0, 6
 	.short 0, 0, 0, 0, 0, 0, 0, 59
 	.short 0, 0, 0, 0, 0, 54, 0, 33
@@ -23753,12 +23753,12 @@ class_name_table:
 	.short 0, 0, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 0, 0, 0, 0, 20
 	.short 114, 0, 0, 11, 0, 0, 0, 0
-	.short 0, 30, 122, 14, 124, 50, 0, 10
+	.short 0, 30, 122, 14, 0, 50, 0, 10
 	.short 0, 0, 0, 58, 0, 0, 0, 43
 	.short 0, 0, 0, 64, 0, 0, 0, 0
 	.short 0, 0, 0, 4, 119, 0, 0, 5
 	.short 116, 0, 0, 52, 0, 0, 0, 0
-	.short 0, 19, 0, 28, 110, 29, 0, 31
+	.short 0, 19, 0, 28, 110, 29, 124, 31
 	.short 0, 32, 0, 38, 115, 47, 0, 51
 	.short 0, 53, 0, 56, 0, 57, 121, 61
 	.short 0, 63, 0, 65, 0, 67, 0, 70
@@ -28152,28 +28152,28 @@ image_table:
 
 	.long 4
 	.asciz "System.Net.Http"
-	.asciz "F96584B5-1760-491B-80DC-7F62EE46B95D"
+	.asciz "2AFCF38B-FC72-4906-88E8-3F42D7C78B00"
 	.asciz ""
 	.asciz "b03f5f7f11d50a3a"
 	.align 3
 
 	.long 1,4,0,0,0
 	.asciz "mscorlib"
-	.asciz "A36CB8DA-7BB7-4A6B-A7E5-38A1219AC3FC"
+	.asciz "6E466931-A21F-4620-9A7C-947AFD4E1457"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System"
-	.asciz "72BBB455-68B2-4BA4-A69B-77F0A8C1B822"
+	.asciz "B29EC069-03CA-4FC8-B0FF-5581918C719E"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Core"
-	.asciz "2E906531-9A6A-470F-9149-E55913936B1C"
+	.asciz "CBF35920-8D5D-4D8B-8939-7035096AAA24"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
@@ -28187,7 +28187,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F96584B5-1760-491B-80DC-7F62EE46B95D"
+	.asciz "2AFCF38B-FC72-4906-88E8-3F42D7C78B00"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -80172,8 +80172,8 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.26/src/mono/mcs/class/System.Net.Http/System.Net.Http.Headers"
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.1.26/src/mono/mcs/class/System.Net.Http/System.Net.Http"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/System.Net.Http/System.Net.Http.Headers"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/System.Net.Http/System.Net.Http"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Collections.Generic"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices"

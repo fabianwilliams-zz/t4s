@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/1f46d47 Wed Feb 11 04:28:02 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/ba5d2d1 Thu Feb 26 10:59:01 EST 2015)"
 	.asciz "SQLitePCL.dll"
 	.asciz ""
 
@@ -16741,7 +16741,7 @@ image_table:
 
 	.long 1,3,8,7,2
 	.asciz "mscorlib"
-	.asciz "A36CB8DA-7BB7-4A6B-A7E5-38A1219AC3FC"
+	.asciz "6E466931-A21F-4620-9A7C-947AFD4E1457"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
