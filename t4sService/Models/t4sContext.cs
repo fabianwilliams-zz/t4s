@@ -20,14 +20,21 @@ namespace t4sService.Models
         // service name, set by the 'MS_MobileServiceName' AppSettings in the local 
         // Web.config, is the same as the service name when hosted in Azure.
         private const string connectionStringName = "Name=MS_TableConnectionString";
+        private ServiceSettingsDictionary serviceSettingsDictionary;
 
         public t4sContext() : base(connectionStringName)
         {
         }
 
+        public t4sContext(ServiceSettingsDictionary serviceSettingsDictionary) : base(connectionStringName)
+        {
+            // TODO: Complete member initialization
+            //this.serviceSettingsDictionary = serviceSettingsDictionary;
+        }
+
 
         public DbSet<TweetItem> TweetItems { get; set; }
-        public DbSet<Updates> Updates { get; set; }
+        public DbSet<Update> Updates { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
