@@ -69,10 +69,11 @@ namespace t4sService
                                             .TweetId;
             }
 
+            //TEST QUERY TO USE: %23Tweet4Swag%20or%20%40fabianwilliams
             // Execute a search that returns a filtered result.
             var response = await (from s in twitter.Search
                                   where s.Type == SearchType.Search
-                                  && s.Query == "%23EvoConf"
+                                  && s.Query == "%23EvoConf+OR+%23Tweet4Swag+OR+%40fabianwilliams"
                                   && s.SinceID == Convert.ToUInt64(lastTweetId + 1)
                                   && s.ResultType == ResultType.Recent
                                   select s).SingleOrDefaultAsync();
