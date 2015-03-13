@@ -8325,7 +8325,11 @@ image_table:
 
 	.long 7
 	.asciz "t4s"
+<<<<<<< HEAD
 	.asciz "EB21231B-7B6C-4503-9145-ECCB46CD46A6"
+=======
+	.asciz "5DE7FDCE-586C-4330-B179-7CA3FA70F983"
+>>>>>>> master
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -8381,7 +8385,11 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
+<<<<<<< HEAD
 	.asciz "EB21231B-7B6C-4503-9145-ECCB46CD46A6"
+=======
+	.asciz "5DE7FDCE-586C-4330-B179-7CA3FA70F983"
+>>>>>>> master
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -12923,12 +12931,20 @@ LDIFF_SYM730=LTDIE_82_REFERENCE - Ldebug_info_start
 LDIFF_SYM731=LTDIE_84_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM731
 	.byte 2,125,8,11
+<<<<<<< HEAD
 	.asciz "V_0"
+=======
+	.asciz "cell"
+>>>>>>> master
 
 LDIFF_SYM732=LTDIE_85_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM732
 	.byte 1,86,11
+<<<<<<< HEAD
 	.asciz "V_1"
+=======
+	.asciz "label"
+>>>>>>> master
 
 LDIFF_SYM733=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM733
@@ -13110,7 +13126,11 @@ LDIFF_SYM761=LDIE_I4 - Ldebug_info_start
 LDIFF_SYM762=LTDIE_84_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM762
 	.byte 1,90,11
+<<<<<<< HEAD
 	.asciz "V_0"
+=======
+	.asciz "item"
+>>>>>>> master
 
 LDIFF_SYM763=LTDIE_87_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM763
@@ -16734,22 +16754,38 @@ LDIFF_SYM1188=LTDIE_96_REFERENCE - Ldebug_info_start
 LDIFF_SYM1189=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1189
 	.byte 0,11
+<<<<<<< HEAD
 	.asciz "V_0"
+=======
+	.asciz "navctlr"
+>>>>>>> master
 
 LDIFF_SYM1190=LTDIE_97_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1190
 	.byte 1,85,11
+<<<<<<< HEAD
 	.asciz "V_1"
+=======
+	.asciz "source"
+>>>>>>> master
 
 LDIFF_SYM1191=LTDIE_77_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1191
 	.byte 1,84,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "rowPath"
+>>>>>>> master
 
 LDIFF_SYM1192=LTDIE_84_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1192
 	.byte 1,91,11
+<<<<<<< HEAD
 	.asciz "V_3"
+=======
+	.asciz "item"
+>>>>>>> master
 
 LDIFF_SYM1193=LTDIE_87_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1193
@@ -16869,12 +16905,20 @@ LDIFF_SYM1206=LTDIE_82_REFERENCE - Ldebug_info_start
 LDIFF_SYM1207=LTDIE_84_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1207
 	.byte 2,125,8,11
+<<<<<<< HEAD
 	.asciz "V_0"
+=======
+	.asciz "cell"
+>>>>>>> master
 
 LDIFF_SYM1208=LTDIE_85_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1208
 	.byte 1,86,11
+<<<<<<< HEAD
 	.asciz "V_1"
+=======
+	.asciz "label"
+>>>>>>> master
 
 LDIFF_SYM1209=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1209
@@ -16959,7 +17003,11 @@ LDIFF_SYM1218=LDIE_I4 - Ldebug_info_start
 LDIFF_SYM1219=LTDIE_84_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1219
 	.byte 1,90,11
+<<<<<<< HEAD
 	.asciz "V_0"
+=======
+	.asciz "item"
+>>>>>>> master
 
 LDIFF_SYM1220=LTDIE_87_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1220
@@ -17669,7 +17717,11 @@ LDIFF_SYM1307=LTDIE_13_REFERENCE - Ldebug_info_start
 LDIFF_SYM1308=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1308
 	.byte 0,11
+<<<<<<< HEAD
 	.asciz "V_1"
+=======
+	.asciz "tvc"
+>>>>>>> master
 
 LDIFF_SYM1309=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1309
@@ -18372,12 +18424,20 @@ LDIFF_SYM1392=LTDIE_82_REFERENCE - Ldebug_info_start
 LDIFF_SYM1393=LTDIE_84_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1393
 	.byte 2,125,8,11
+<<<<<<< HEAD
 	.asciz "V_0"
+=======
+	.asciz "cell"
+>>>>>>> master
 
 LDIFF_SYM1394=LTDIE_85_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1394
 	.byte 1,86,11
+<<<<<<< HEAD
 	.asciz "V_1"
+=======
+	.asciz "label"
+>>>>>>> master
 
 LDIFF_SYM1395=LTDIE_86_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1395
@@ -21239,7 +21299,11 @@ LDIFF_SYM1855=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM1856=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1856
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM1857=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1857
@@ -21427,7 +21491,11 @@ LDIFF_SYM1885=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM1886=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1886
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM1887=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1887
@@ -21564,7 +21632,11 @@ LDIFF_SYM1906=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM1907=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1907
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM1908=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1908
@@ -21696,7 +21768,11 @@ LDIFF_SYM1926=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM1927=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM1927
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM1928=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1928
@@ -22292,7 +22368,11 @@ LDIFF_SYM2013=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM2014=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2014
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "ex"
+>>>>>>> master
 
 LDIFF_SYM2015=LTDIE_108_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2015
@@ -22541,7 +22621,11 @@ LDIFF_SYM2050=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM2051=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2051
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM2052=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2052
@@ -22678,7 +22762,11 @@ LDIFF_SYM2071=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM2072=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2072
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM2073=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2073
@@ -22815,7 +22903,11 @@ LDIFF_SYM2092=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM2093=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2093
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM2094=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2094
@@ -22947,7 +23039,11 @@ LDIFF_SYM2112=LDIE_U4 - Ldebug_info_start
 LDIFF_SYM2113=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM2113
 	.byte 2,123,0,11
+<<<<<<< HEAD
 	.asciz "V_2"
+=======
+	.asciz "e"
+>>>>>>> master
 
 LDIFF_SYM2114=LTDIE_125_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2114
@@ -27396,6 +27492,10 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
+<<<<<<< HEAD
+=======
+	.asciz "/Users/devpreso/Documents/1CodeProjects/Contributor/t4s/t4s"
+>>>>>>> master
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System.Runtime.CompilerServices"
 
@@ -27403,6 +27503,7 @@ Ldebug_line_start:
 	.asciz "<unknown>"
 
 	.byte 0,0,0
+<<<<<<< HEAD
 	.asciz "Array.cs"
 
 	.byte 1,0,0
@@ -27415,383 +27516,1601 @@ Ldebug_line_start:
 	.asciz "AsyncTaskMethodBuilder_T.cs"
 
 	.byte 2,0,0,0
+=======
+	.asciz "Main.cs"
+
+	.byte 1,0,0
+	.asciz "AppDelegate.cs"
+
+	.byte 1,0,0
+	.asciz "QSTodoListViewController.cs"
+
+	.byte 1,0,0
+	.asciz "QSTodoListViewController.designer.cs"
+
+	.byte 1,0,0
+	.asciz "QSTodoService.cs"
+
+	.byte 1,0,0
+	.asciz "ToDoItem.cs"
+
+	.byte 1,0,0
+	.asciz "TweetItem.cs"
+
+	.byte 1,0,0
+	.asciz "tfsRootViewController.cs"
+
+	.byte 1,0,0
+	.asciz "tfsRootViewController.designer.cs"
+
+	.byte 1,0,0
+	.asciz "addSCViewController.cs"
+
+	.byte 1,0,0
+	.asciz "addSCViewController.designer.cs"
+
+	.byte 1,0,0
+	.asciz "showContestService.cs"
+
+	.byte 1,0,0
+	.asciz "shSessionViewController.cs"
+
+	.byte 1,0,0
+	.asciz "TwitterViewController.cs"
+
+	.byte 1,0,0
+	.asciz "TwitterViewController.designer.cs"
+
+	.byte 1,0,0
+	.asciz "TwitterService.cs"
+
+	.byte 1,0,0
+	.asciz "sessDViewController.cs"
+
+	.byte 1,0,0
+	.asciz "sessDViewController.designer.cs"
+
+	.byte 1,0,0
+	.asciz "RootTableSource.cs"
+
+	.byte 1,0,0
+	.asciz "Array.cs"
+
+	.byte 2,0,0
+	.asciz "AsyncVoidMethodBuilder.cs"
+
+	.byte 3,0,0
+	.asciz "AsyncTaskMethodBuilder.cs"
+
+	.byte 3,0,0
+	.asciz "AsyncTaskMethodBuilder_T.cs"
+
+	.byte 3,0,0,0
+>>>>>>> master
 Ldebug_line_header_end:
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+<<<<<<< HEAD
+	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
+
+	.byte 3,207,0,4,2,1,3,207,0,2,32,1,2,148,1,1,0,1,1
+=======
+	.long _t4s_Application_Main_string__
+
+	.byte 3,15,4,2,1,3,15,2,20,1,2,40,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_AppDelegate_get_Window
+
+	.byte 3,15,4,3,1,3,15,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_AppDelegate_set_Window_MonoTouch_UIKit_UIWindow
+
+	.byte 3,15,4,3,1,3,15,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController__ctor_intptr
+
+	.byte 3,12,4,4,1,3,12,2,36,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_RowsInSection_MonoTouch_UIKit_UITableView_int
+
+	.byte 3,42,4,4,1,3,42,2,28,1,3,1,2,36,1,132,2,40,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_NumberOfSections_MonoTouch_UIKit_UITableView
+
+	.byte 3,50,4,4,1,3,50,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,56,4,4,1,3,56,2,28,1,3,1,2,36,1,131,3,5,2,192,0,1,3,1,2,204,0,1,8,117,3,2
+	.byte 2,128,1,1,2,200,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_TitleForDeleteConfirmation_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,201,0,4,4,1,3,201,0,2,28,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,207,0,4,4,1,3,207,0,2,28,1,3,3,2,224,0,1,131,133,2,52,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_ShouldReturn_MonoTouch_UIKit_UITextField
+
+	.byte 3,243,0,4,4,1,3,243,0,2,32,1,187,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_get_itemText
+
+	.byte 3,17,4,5,1,3,17,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController_set_itemText_MonoTouch_UIKit_UITextField
+
+	.byte 3,17,4,5,1,3,17,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController__ViewDidLoadm__0_object_System_EventArgs
+
+	.byte 3,23,4,4,1,3,23,2,208,0,1,2,60,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__ctor
+
+	.byte 3,27,4,6,1,3,27,2,20,1,3,3,2,212,0,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService_get_DefaultService
+
+	.byte 3,35,4,6,1,3,35,2,16,1,2,32,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService_get_Items
+
+	.byte 3,39,4,6,1,3,39,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService_set_Items_System_Collections_Generic_List_1_t4s_TweetItem
+
+	.byte 3,39,4,6,1,3,39,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__cctor
+
+	.byte 3,12,4,6,1,3,12,2,16,1,2,192,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_ToDoItem_get_Id
+
+	.byte 3,7,4,7,1,8,123,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_ToDoItem_set_Id_string
+
+	.byte 3,7,4,7,1,8,235,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_ToDoItem_get_Text
+
+	.byte 3,10,4,7,1,3,10,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_ToDoItem_set_Text_string
+
+	.byte 3,10,4,7,1,3,10,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_ToDoItem_get_Complete
+
+	.byte 3,13,4,7,1,3,13,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_ToDoItem_set_Complete_bool
+
+	.byte 3,13,4,7,1,3,13,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_Id
+
+	.byte 3,9,4,8,1,3,9,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_Id_string
+
+	.byte 3,9,4,8,1,3,9,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_EventHashTag
+
+	.byte 3,11,4,8,1,3,11,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_EventHashTag_string
+
+	.byte 3,11,4,8,1,3,11,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_SessionTitle
+
+	.byte 3,13,4,8,1,3,13,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_SessionTitle_string
+
+	.byte 3,13,4,8,1,3,13,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_SessionNumber
+
+	.byte 3,15,4,8,1,3,15,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_SessionNumber_string
+
+	.byte 3,15,4,8,1,3,15,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_POneName
+
+	.byte 3,17,4,8,1,3,17,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_POneName_string
+
+	.byte 3,17,4,8,1,3,17,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_PTwoName
+
+	.byte 3,19,4,8,1,3,19,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_PTwoName_string
+
+	.byte 3,19,4,8,1,3,19,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_PThreeName
+
+	.byte 3,21,4,8,1,3,21,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_PThreeName_string
+
+	.byte 3,21,4,8,1,3,21,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_POneTH
+
+	.byte 3,23,4,8,1,3,23,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_POneTH_string
+
+	.byte 3,23,4,8,1,3,23,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_PTwoTH
+
+	.byte 3,25,4,8,1,3,25,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_PTwoTH_string
+
+	.byte 3,25,4,8,1,3,25,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_PThreeTH
+
+	.byte 3,27,4,8,1,3,27,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_PThreeTH_string
+
+	.byte 3,27,4,8,1,3,27,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_MyTweet
+
+	.byte 3,29,4,8,1,3,29,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_MyTweet_string
+
+	.byte 3,29,4,8,1,3,29,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_MyTH
+
+	.byte 3,31,4,8,1,3,31,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_MyTH_string
+
+	.byte 3,31,4,8,1,3,31,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_ContestClosed
+
+	.byte 3,33,4,8,1,3,33,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_ContestClosed_bool
+
+	.byte 3,33,4,8,1,3,33,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_WinStatus
+
+	.byte 3,35,4,8,1,3,35,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_WinStatus_bool
+
+	.byte 3,35,4,8,1,3,35,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_get_WinAcceptance
+
+	.byte 3,37,4,8,1,3,37,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TweetItem_set_WinAcceptance_bool
+
+	.byte 3,37,4,8,1,3,37,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_tfsRootViewController__ctor_intptr
+
+	.byte 3,9,4,9,1,3,9,2,36,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_tfsRootViewController_get_AddItemButton
+
+	.byte 3,18,4,10,1,3,18,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_tfsRootViewController_set_AddItemButton_MonoTouch_UIKit_UIButton
+
+	.byte 3,18,4,10,1,3,18,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_tfsRootViewController_get_viewcontestbutton
+
+	.byte 3,22,4,10,1,3,22,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_tfsRootViewController_set_viewcontestbutton_MonoTouch_UIKit_UIButton
+
+	.byte 3,22,4,10,1,3,22,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_tfsRootViewController_ReleaseDesignerOutlets
+
+	.byte 3,26,4,10,1,3,26,2,20,1,3,4,2,36,1,8,230,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController__ctor_intptr
+
+	.byte 3,12,4,11,1,3,12,2,36,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_btnAddEvent
+
+	.byte 3,18,4,12,1,3,18,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_btnAddEvent_MonoTouch_UIKit_UIButton
+
+	.byte 3,18,4,12,1,3,18,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_lblRecordAdded
+
+	.byte 3,22,4,12,1,3,22,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_lblRecordAdded_MonoTouch_UIKit_UILabel
+
+	.byte 3,22,4,12,1,3,22,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_txtEventHasttag
+
+	.byte 3,26,4,12,1,3,26,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_txtEventHasttag_MonoTouch_UIKit_UITextField
+
+	.byte 3,26,4,12,1,3,26,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_txtSessionName
+
+	.byte 3,30,4,12,1,3,30,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_txtSessionName_MonoTouch_UIKit_UITextField
+
+	.byte 3,30,4,12,1,3,30,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_txtSessionNumber
+
+	.byte 3,34,4,12,1,3,34,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_txtSessionNumber_MonoTouch_UIKit_UITextField
+
+	.byte 3,34,4,12,1,3,34,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_txtSpeakerName
+
+	.byte 3,38,4,12,1,3,38,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_txtSpeakerName_MonoTouch_UIKit_UITextField
+
+	.byte 3,38,4,12,1,3,38,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_get_txtSpeakerTwitter
+
+	.byte 3,42,4,12,1,3,42,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_set_txtSpeakerTwitter_MonoTouch_UIKit_UITextField
+
+	.byte 3,42,4,12,1,3,42,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController_ReleaseDesignerOutlets
+
+	.byte 3,50,4,12,1,3,50,2,20,1,3,4,2,36,1,3,4,2,36,1,3,4,2,36,1,3,4,2,36,1,3,4
+	.byte 2,36,1,3,4,2,36,1,8,230,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__ctor
+
+	.byte 3,43,4,13,1,3,43,2,20,1,3,1,2,212,0,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService_get_User
+
+	.byte 3,15,4,13,1,3,15,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService_get_DefaultService
+
+	.byte 3,49,4,13,1,3,49,2,16,1,2,32,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService_get_Items
+
+	.byte 3,53,4,13,1,3,53,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService_set_Items_System_Collections_Generic_List_1_t4s_TweetItem
+
+	.byte 3,53,4,13,1,3,53,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__cctor
+
+	.byte 3,29,4,13,1,3,29,2,16,1,2,192,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController__ctor_intptr
+
+	.byte 3,13,4,14,1,3,13,2,36,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_PrepareForSegue_MonoTouch_UIKit_UIStoryboardSegue_MonoTouch_Foundation_NSObject
+
+	.byte 3,53,4,14,1,3,53,2,28,1,3,1,2,48,1,3,1,2,216,0,1,131,243,3,1,2,36,1,3,1,2,228
+	.byte 0,1,2,48,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_RowsInSection_MonoTouch_UIKit_UITableView_int
+
+	.byte 3,195,0,4,14,1,3,195,0,2,28,1,3,1,2,36,1,132,2,40,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_NumberOfSections_MonoTouch_UIKit_UITableView
+
+	.byte 3,203,0,4,14,1,3,203,0,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,209,0,4,14,1,3,209,0,2,28,1,3,1,2,36,1,131,3,5,2,192,0,1,3,1,2,204,0,1,8,117
+	.byte 3,2,2,128,1,1,2,200,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_TitleForDeleteConfirmation_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,226,0,4,14,1,3,226,0,2,28,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_EditingStyleForRow_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,232,0,4,14,1,3,232,0,2,28,1,3,3,2,224,0,1,131,133,2,52,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController_ShouldReturn_MonoTouch_UIKit_UITextField
+
+	.byte 3,140,1,4,14,1,3,140,1,2,32,1,187,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController__ViewDidLoadm__0_object_System_EventArgs
+
+	.byte 3,24,4,14,1,3,24,2,208,0,1,2,60,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController__ctor_intptr
+
+	.byte 3,15,4,15,1,3,15,2,36,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_get_Delegate
+
+	.byte 3,13,4,15,1,3,13,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_set_Delegate_t4s_TwitterService
+
+	.byte 3,13,4,15,1,3,13,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_ViewDidLoad
+
+	.byte 3,22,4,15,1,3,22,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_get_btnCompose
+
+	.byte 3,18,4,16,1,3,18,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_set_btnCompose_MonoTouch_UIKit_UIButton
+
+	.byte 3,18,4,16,1,3,18,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_get_txtView
+
+	.byte 3,22,4,16,1,3,22,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_set_txtView_MonoTouch_UIKit_UITextView
+
+	.byte 3,22,4,16,1,3,22,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController_ReleaseDesignerOutlets
+
+	.byte 3,30,4,16,1,3,30,2,20,1,3,4,2,36,1,8,230,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterService_ComposeTweet_MonoTouch_UIKit_UITextView_MonoTouch_UIKit_UIViewController
+
+	.byte 3,15,4,17,1,3,15,2,196,0,1,3,3,2,48,1,3,1,2,56,1,3,11,2,148,1,1,2,52,1,0,1
+	.byte 1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController__ctor_intptr
+
+	.byte 3,25,4,18,1,3,25,2,36,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_get_Delegate
+
+	.byte 3,9,4,18,1,3,9,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_set_Delegate_t4s_shSessionViewController
+
+	.byte 3,9,4,18,1,3,9,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_get_currItem
+
+	.byte 3,10,4,18,1,3,10,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_set_currItem_t4s_TweetItem
+
+	.byte 3,10,4,18,1,3,10,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_SetTask_t4s_shSessionViewController_t4s_TweetItem
+
+	.byte 3,15,4,18,1,3,15,2,48,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_ViewWillAppear_bool
+
+	.byte 3,20,4,18,1,3,20,2,24,1,3,1,2,52,1,2,192,2,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_ViewDidLoad
+
+	.byte 3,31,4,18,1,3,31,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_get_btnTweet
+
+	.byte 3,18,4,19,1,3,18,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_set_btnTweet_MonoTouch_UIKit_UIButton
+
+	.byte 3,18,4,19,1,3,18,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_get_txtView
+
+	.byte 3,22,4,19,1,3,22,2,24,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_set_txtView_MonoTouch_UIKit_UITextView
+
+	.byte 3,22,4,19,1,3,22,2,32,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController_ReleaseDesignerOutlets
+
+	.byte 3,30,4,19,1,3,30,2,20,1,3,4,2,36,1,8,230,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_RootTableSource__ctor
+
+	.byte 3,16,4,20,1,3,16,2,20,1,8,111,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_RootTableSource__ctor_t4s_TweetItem
+
+	.byte 3,16,4,20,1,3,16,2,24,1,8,62,188,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_RootTableSource_RowsInSection_MonoTouch_UIKit_UITableView_int
+
+	.byte 3,25,4,20,1,3,25,2,32,1,2,40,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_RootTableSource_GetCell_MonoTouch_UIKit_UITableView_MonoTouch_Foundation_NSIndexPath
+
+	.byte 3,31,4,20,1,3,31,2,28,1,3,1,2,36,1,131,3,5,2,192,0,1,3,1,2,204,0,1,8,117,3,2
+	.byte 2,128,1,1,2,200,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_RootTableSource_GetItem_int
+
+	.byte 3,46,4,20,1,3,46,2,28,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController__ViewDidLoadc__async0_MoveNext
+
+	.byte 3,18,4,4,1,3,18,2,236,0,1,188,3,1,2,52,1,3,2,2,192,1,1,3,4,2,176,1,1,3,1,2
+	.byte 128,2,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController__RefreshAsyncc__async1_MoveNext
+
+	.byte 3,32,4,4,1,3,32,2,236,0,1,3,1,2,48,1,3,1,2,216,1,1,3,2,2,40,1,3,1,2,244,0
+	.byte 1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController__CommitEditingStylec__async2_MoveNext
+
+	.byte 3,220,0,4,4,1,3,220,0,2,236,0,1,3,3,2,144,1,1,3,1,2,128,1,1,3,3,2,48,1,3,3
+	.byte 2,200,1,1,3,1,2,176,1,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoListViewController__ViewDidLoadc__async3_MoveNext
+
+	.byte 3,24,4,4,1,3,24,2,244,0,1,3,1,2,128,2,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__InitializeStoreAsyncc__async0_MoveNext
+
+	.byte 3,43,4,6,1,3,43,2,240,0,1,3,1,2,196,0,1,3,4,2,36,1,3,1,2,152,2,1,2,28,1,0
+	.byte 1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__SyncAsyncc__async1_MoveNext
+
+	.byte 3,53,4,6,1,3,53,2,240,0,1,3,2,2,60,1,3,1,2,212,1,1,3,3,2,160,2,1,244,3,2,2
+	.byte 184,1,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__RefreshDataAsyncc__async2_MoveNext
+
+	.byte 3,195,0,4,6,1,3,195,0,2,244,0,1,3,3,2,252,0,1,3,4,2,192,1,1,3,3,2,180,4,1,243
+	.byte 3,1,2,208,0,1,3,3,2,36,1,3,1,2,240,0,1,2,192,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__InsertTodoItemAsyncc__async3_MoveNext
+
+	.byte 3,215,0,4,6,1,3,215,0,2,240,0,1,3,1,2,60,1,3,1,2,240,1,1,3,2,2,188,1,1,8,174
+	.byte 243,3,2,2,184,1,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_QSTodoService__CompleteItemAsyncc__async4_MoveNext
+
+	.byte 3,228,0,4,6,1,3,228,0,2,240,0,1,3,1,2,52,1,8,173,3,1,2,240,1,1,3,2,2,188,1,1
+	.byte 8,174,243,3,2,2,184,1,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController__RefreshAsyncc__async0_MoveNext
+
+	.byte 3,19,4,11,1,3,19,2,244,0,1,3,1,2,164,2,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController__ViewDidLoadc__async1_MoveNext
+
+	.byte 3,24,4,11,1,3,24,2,236,0,1,8,174,188,3,1,2,52,1,3,2,2,200,1,1,3,1,2,128,2,1,2
+	.byte 28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController__Clickedc__async2_MoveNext
+
+	.byte 3,36,4,11,1,3,36,2,196,1,1,3,1,2,40,1,131,3,1,2,40,1,131,3,1,2,40,1,131,3,1,2
+	.byte 40,1,131,3,1,2,40,1,132,3,1,2,44,1,3,1,2,48,1,3,1,2,48,1,3,1,2,48,1,3,1,2
+	.byte 48,1,3,3,2,208,0,1,246,3,1,2,212,1,1,3,3,2,180,1,1,3,3,2,244,0,1,3,1,2,48,1
+	.byte 3,1,2,48,1,3,1,2,48,1,3,1,2,48,1,3,1,2,252,0,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_addSCViewController__Clickedc__async2__Clickedc__AnonStorey3__m__0_t4s_TweetItem
+
+	.byte 3,60,4,11,1,3,60,2,36,1,2,36,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__Authenticatec__async0_MoveNext
+
+	.byte 3,19,4,13,1,3,19,2,240,0,1,3,2,2,60,1,3,2,2,248,1,1,244,3,2,2,184,1,1,2,28,1
+	.byte 0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__InitializeStoreAsyncc__async1_MoveNext
+
+	.byte 3,57,4,13,1,3,57,2,240,0,1,3,1,2,196,0,1,3,1,2,36,1,3,1,2,152,2,1,2,28,1,0
+	.byte 1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__SyncAsyncc__async2_MoveNext
+
+	.byte 3,192,0,4,13,1,3,192,0,2,240,0,1,3,2,2,60,1,3,1,2,212,1,1,3,2,2,160,2,1,244,3
+	.byte 2,2,184,1,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__RefreshDataAsyncc__async3_MoveNext
+
+	.byte 3,205,0,4,13,1,3,205,0,2,244,0,1,3,2,2,252,0,1,3,1,2,192,1,1,3,3,2,180,4,1,244
+	.byte 3,1,2,208,0,1,3,3,2,36,1,3,1,2,240,0,1,2,192,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__InsertTodoItemAsyncc__async4_MoveNext
+
+	.byte 3,222,0,4,13,1,3,222,0,2,240,0,1,3,2,2,60,1,3,1,2,240,1,1,3,1,2,188,1,1,8,174
+	.byte 244,3,3,2,184,1,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_showContestService__CompleteItemAsyncc__async5_MoveNext
+
+	.byte 3,237,0,4,13,1,3,237,0,2,240,0,1,3,2,2,52,1,8,173,3,1,2,240,1,1,3,1,2,188,1,1
+	.byte 8,174,244,3,2,2,184,1,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController__ViewDidLoadc__async0_MoveNext
+
+	.byte 3,19,4,14,1,3,19,2,236,0,1,188,3,1,2,52,1,3,2,2,192,1,1,3,5,2,244,1,1,2,44,1
+	.byte 0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController__RefreshAsyncc__async1_MoveNext
+
+	.byte 3,34,4,14,1,3,34,2,236,0,1,3,2,2,192,0,1,3,1,2,188,1,1,8,174,8,61,134,3,1,2,48
+	.byte 1,3,1,2,216,1,1,3,2,2,40,1,3,1,2,244,0,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController__CommitEditingStylec__async2_MoveNext
+
+	.byte 3,245,0,4,14,1,3,245,0,2,236,0,1,3,3,2,144,1,1,3,1,2,128,1,1,3,3,2,48,1,3,3
+	.byte 2,200,1,1,3,1,2,176,1,1,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_shSessionViewController__ViewDidLoadc__async3_MoveNext
+
+	.byte 3,25,4,14,1,3,25,2,244,0,1,3,1,2,128,2,1,2,28,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterViewController__Clickedc__async0_MoveNext
+
+	.byte 3,29,4,15,1,3,29,2,192,0,1,2,244,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_TwitterService__ComposeTweetc__AnonStorey0__m__0_MonoTouch_Twitter_TWTweetComposeViewControllerResult
+
+	.byte 3,20,4,17,1,3,20,2,24,1,8,173,132,3,4,2,40,1,2,48,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _t4s_sessDViewController__Clickedc__async0_MoveNext
+
+	.byte 3,38,4,18,1,3,38,2,192,0,1,2,244,0,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__IEnumerable_GetEnumerator_T
 
-	.byte 3,207,0,4,2,1,3,207,0,2,32,1,2,148,1,1,0,1,1
+	.byte 3,207,0,4,21,1,3,207,0,2,32,1,2,148,1,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_get_Count
 
+<<<<<<< HEAD
 	.byte 3,197,0,4,2,1,3,197,0,2,24,1,2,16,1,0,1,1
+=======
+	.byte 3,197,0,4,21,1,3,197,0,2,24,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_get_IsReadOnly
 
+<<<<<<< HEAD
 	.byte 3,202,0,4,2,1,3,202,0,2,20,1,2,16,1,0,1,1
+=======
+	.byte 3,202,0,4,21,1,3,202,0,2,20,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_Clear
 
+<<<<<<< HEAD
 	.byte 3,212,0,4,2,1,3,212,0,2,20,1,2,40,1,0,1,1
+=======
+	.byte 3,212,0,4,21,1,3,212,0,2,20,1,2,40,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_Add_T_T
 
+<<<<<<< HEAD
 	.byte 3,217,0,4,2,1,3,217,0,2,36,1,2,60,1,0,1,1
+=======
+	.byte 3,217,0,4,21,1,3,217,0,2,36,1,2,60,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_Remove_T_T
 
+<<<<<<< HEAD
 	.byte 3,222,0,4,2,1,3,222,0,2,36,1,2,60,1,0,1,1
+=======
+	.byte 3,222,0,4,21,1,3,222,0,2,36,1,2,60,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_Contains_T_T
 
+<<<<<<< HEAD
 	.byte 3,227,0,4,2,1,3,227,0,2,36,1,3,3,2,44,1,75,188,3,1,2,44,1,187,131,192,8,173,3,116,2
+=======
+	.byte 3,227,0,4,21,1,3,227,0,2,36,1,3,3,2,44,1,75,188,3,1,2,44,1,187,131,192,8,173,3,116,2
+>>>>>>> master
 	.byte 8,1,3,16,2,12,1,3,109,2,16,1,2,32,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__ICollection_CopyTo_T_T___int
 
+<<<<<<< HEAD
 	.byte 3,252,0,4,2,1,3,252,0,2,40,1,8,177,244,3,4,2,176,1,1,244,134,3,117,2,140,1,1,8,230,8
+=======
+	.byte 3,252,0,4,21,1,3,252,0,2,40,1,8,177,244,3,4,2,176,1,1,244,134,3,117,2,140,1,1,8,230,8
+>>>>>>> master
 	.byte 176,8,230,3,115,2,52,1,2,24,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__Insert_T_int_T
 
+<<<<<<< HEAD
 	.byte 3,163,1,4,2,1,3,163,1,2,40,1,2,60,1,0,1,1
+=======
+	.byte 3,163,1,4,21,1,3,163,1,2,40,1,2,60,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__RemoveAt_int
 
+<<<<<<< HEAD
 	.byte 3,168,1,4,2,1,3,168,1,2,24,1,2,40,1,0,1,1
+=======
+	.byte 3,168,1,4,21,1,3,168,1,2,24,1,2,40,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__IndexOf_T_T
 
+<<<<<<< HEAD
 	.byte 3,173,1,4,2,1,3,173,1,2,36,1,3,3,2,44,1,75,188,3,1,2,44,1,187,131,3,4,2,36,1,8
+=======
+	.byte 3,173,1,4,21,1,3,173,1,2,36,1,3,3,2,44,1,75,188,3,1,2,44,1,187,131,3,4,2,36,1,8
+>>>>>>> master
 	.byte 231,3,116,2,60,1,3,17,2,12,1,3,108,2,40,1,2,32,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__get_Item_T_int
 
+<<<<<<< HEAD
 	.byte 3,200,1,4,2,1,3,200,1,2,36,1,3,4,2,52,1,3,1,2,48,1,182,2,28,1,0,1,1
+=======
+	.byte 3,200,1,4,21,1,3,200,1,2,36,1,3,4,2,52,1,3,1,2,48,1,182,2,28,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Array_InternalArray__set_Item_T_int_T
 
+<<<<<<< HEAD
 	.byte 3,210,1,4,2,1,3,210,1,2,40,1,3,3,2,36,1,3,1,2,248,0,1,187,8,61,76,3,121,2,196,0
+=======
+	.byte 3,210,1,4,21,1,3,210,1,2,40,1,3,3,2,36,1,3,1,2,248,0,1,187,8,61,76,3,121,2,196,0
+>>>>>>> master
 	.byte 1,2,28,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_QSTodoListViewController__ViewDidLoadc__async0_t4s_QSTodoListViewController__ViewDidLoadc__async0_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_QSTodoListViewController__RefreshAsyncc__async1_t4s_QSTodoListViewController__RefreshAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_QSTodoListViewController__CommitEditingStylec__async2_t4s_QSTodoListViewController__CommitEditingStylec__async2_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_QSTodoListViewController__ViewDidLoadc__async3_t4s_QSTodoListViewController__ViewDidLoadc__async3_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_QSTodoService__InitializeStoreAsyncc__async0_t4s_QSTodoService__InitializeStoreAsyncc__async0_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_QSTodoService__SyncAsyncc__async1_t4s_QSTodoService__SyncAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_t4s_TweetItem_Start_t4s_QSTodoService__RefreshDataAsyncc__async2_t4s_QSTodoService__RefreshDataAsyncc__async2_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,5,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,24,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_QSTodoService__InsertTodoItemAsyncc__async3_t4s_QSTodoService__InsertTodoItemAsyncc__async3_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_QSTodoService__CompleteItemAsyncc__async4_t4s_QSTodoService__CompleteItemAsyncc__async4_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_addSCViewController__RefreshAsyncc__async0_t4s_addSCViewController__RefreshAsyncc__async0_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_addSCViewController__ViewDidLoadc__async1_t4s_addSCViewController__ViewDidLoadc__async1_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_addSCViewController__Clickedc__async2_t4s_addSCViewController__Clickedc__async2_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_showContestService__Authenticatec__async0_t4s_showContestService__Authenticatec__async0_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_showContestService__InitializeStoreAsyncc__async1_t4s_showContestService__InitializeStoreAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_showContestService__SyncAsyncc__async2_t4s_showContestService__SyncAsyncc__async2_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_t4s_TweetItem_Start_t4s_showContestService__RefreshDataAsyncc__async3_t4s_showContestService__RefreshDataAsyncc__async3_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,5,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,24,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_showContestService__InsertTodoItemAsyncc__async4_t4s_showContestService__InsertTodoItemAsyncc__async4_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_showContestService__CompleteItemAsyncc__async5_t4s_showContestService__CompleteItemAsyncc__async5_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_shSessionViewController__ViewDidLoadc__async0_t4s_shSessionViewController__ViewDidLoadc__async0_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_Start_t4s_shSessionViewController__RefreshAsyncc__async1_t4s_shSessionViewController__RefreshAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,231,0,4,4,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,231,0,4,23,1,3,231,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_shSessionViewController__CommitEditingStylec__async2_t4s_shSessionViewController__CommitEditingStylec__async2_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,40,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,40,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_shSessionViewController__ViewDidLoadc__async3_t4s_shSessionViewController__ViewDidLoadc__async3_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,196,0,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_TwitterViewController__Clickedc__async0_t4s_TwitterViewController__Clickedc__async0_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,60,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,60,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_t4s_sessDViewController__Clickedc__async0_t4s_sessDViewController__Clickedc__async0_
 
+<<<<<<< HEAD
 	.byte 3,230,0,4,3,1,3,230,0,2,60,1,75,8,230,2,16,1,0,1,1
+=======
+	.byte 3,230,0,4,22,1,3,230,0,2,60,1,75,8,230,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoListViewController__ViewDidLoadc__async0_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoListViewController__ViewDidLoadc__async0_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem_t4s_QSTodoListViewController__RefreshAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem__t4s_QSTodoListViewController__RefreshAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,200,0,1,3,1,2,136,1,1,2,36,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,200,0,1,3,1,2,136,1,1,2,36,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoListViewController__CommitEditingStylec__async2_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoListViewController__CommitEditingStylec__async2_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoListViewController__ViewDidLoadc__async3_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoListViewController__ViewDidLoadc__async3_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoService__InitializeStoreAsyncc__async0_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoService__InitializeStoreAsyncc__async0_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoService__SyncAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoService__SyncAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_t4s_TweetItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem_t4s_QSTodoService__RefreshDataAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem__t4s_QSTodoService__RefreshDataAsyncc__async2_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,5,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+=======
+	.byte 3,193,0,4,24,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_t4s_TweetItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoService__RefreshDataAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoService__RefreshDataAsyncc__async2_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,5,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,24,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoService__InsertTodoItemAsyncc__async3_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoService__InsertTodoItemAsyncc__async3_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_QSTodoService__CompleteItemAsyncc__async4_System_Runtime_CompilerServices_TaskAwaiter__t4s_QSTodoService__CompleteItemAsyncc__async4_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem_t4s_addSCViewController__RefreshAsyncc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem__t4s_addSCViewController__RefreshAsyncc__async0_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,200,0,1,3,1,2,136,1,1,2,36,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,200,0,1,3,1,2,136,1,1,2,36,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_addSCViewController__ViewDidLoadc__async1_System_Runtime_CompilerServices_TaskAwaiter__t4s_addSCViewController__ViewDidLoadc__async1_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_addSCViewController__Clickedc__async2_System_Runtime_CompilerServices_TaskAwaiter__t4s_addSCViewController__Clickedc__async2_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_WindowsAzure_MobileServices_MobileServiceUser_t4s_showContestService__Authenticatec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Microsoft_WindowsAzure_MobileServices_MobileServiceUser__t4s_showContestService__Authenticatec__async0_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_showContestService__InitializeStoreAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter__t4s_showContestService__InitializeStoreAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_showContestService__SyncAsyncc__async2_System_Runtime_CompilerServices_TaskAwaiter__t4s_showContestService__SyncAsyncc__async2_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_t4s_TweetItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem_t4s_showContestService__RefreshDataAsyncc__async3_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem__t4s_showContestService__RefreshDataAsyncc__async3_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,5,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+=======
+	.byte 3,193,0,4,24,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_1_System_Collections_Generic_List_1_t4s_TweetItem_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_showContestService__RefreshDataAsyncc__async3_System_Runtime_CompilerServices_TaskAwaiter__t4s_showContestService__RefreshDataAsyncc__async3_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,5,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,24,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_showContestService__InsertTodoItemAsyncc__async4_System_Runtime_CompilerServices_TaskAwaiter__t4s_showContestService__InsertTodoItemAsyncc__async4_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_showContestService__CompleteItemAsyncc__async5_System_Runtime_CompilerServices_TaskAwaiter__t4s_showContestService__CompleteItemAsyncc__async5_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_shSessionViewController__ViewDidLoadc__async0_System_Runtime_CompilerServices_TaskAwaiter__t4s_shSessionViewController__ViewDidLoadc__async0_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem_t4s_shSessionViewController__RefreshAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_System_Collections_Generic_List_1_t4s_TweetItem__t4s_shSessionViewController__RefreshAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,244,0,1,2,36,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncTaskMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_shSessionViewController__RefreshAsyncc__async1_System_Runtime_CompilerServices_TaskAwaiter__t4s_shSessionViewController__RefreshAsyncc__async1_
 
+<<<<<<< HEAD
 	.byte 3,193,0,4,4,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,193,0,4,23,1,3,193,0,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_shSessionViewController__CommitEditingStylec__async2_System_Runtime_CompilerServices_TaskAwaiter__t4s_shSessionViewController__CommitEditingStylec__async2_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,44,1,3,1,2,248,0,1,2,16,1,0,1,1
+>>>>>>> master
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,5,2
 	.long _System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_t4s_shSessionViewController__ViewDidLoadc__async3_System_Runtime_CompilerServices_TaskAwaiter__t4s_shSessionViewController__ViewDidLoadc__async3_
 
+<<<<<<< HEAD
 	.byte 3,60,4,3,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1,0,1,1
+=======
+	.byte 3,60,4,22,1,3,60,2,200,0,1,3,1,2,140,1,1,2,16,1,0,1,1,0,1,1
+>>>>>>> master
 Ldebug_line_end:
 .text
 	.align 3

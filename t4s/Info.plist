@@ -34,8 +34,15 @@
 	<string>net.azure-mobile.t4s</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+<<<<<<< HEAD
 	<key>CFBundleDisplayName</key>
 	<string>Tweet4Swag</string>
+=======
+	<key>NSMainNibFile</key>
+	<string></string>
+	<key>NSMainNibFile~ipad</key>
+	<string></string>
+>>>>>>> master
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 </dict>

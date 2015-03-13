@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿<Properties StartupItem="t4s/Tweet4Swag.csproj">
+=======
+﻿<Properties StartupItem="t4s/t4s.csproj">
+>>>>>>> master
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

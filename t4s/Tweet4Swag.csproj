@@ -36,6 +36,7 @@
     <WarningLevel>4</WarningLevel>
     <MtouchLink>None</MtouchLink>
     <ConsolePause>false</ConsolePause>
+<<<<<<< HEAD:t4s/Tweet4Swag.csproj
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>i386</MtouchArch>
@@ -44,6 +45,12 @@
     <AssemblyName>t4s</AssemblyName>
     <CodesignProvision>de901df3-eea0-4c57-a110-b700716ebd11</CodesignProvision>
     <CodesignKey>iPhone Developer: Fabian Wiilliams (R39PZQTK3E)</CodesignKey>
+=======
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchI18n>
+    </MtouchI18n>
+    <MtouchArch>i386</MtouchArch>
+>>>>>>> master:t4s/t4s.csproj
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,8 +75,9 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: Adotob, LLC (8FXYXU923K)</CodesignKey>
     <ConsolePause>false</ConsolePause>
+<<<<<<< HEAD:t4s/Tweet4Swag.csproj
     <AssemblyName>t4s</AssemblyName>
     <MtouchI18n>
     </MtouchI18n>
@@ -86,6 +94,9 @@
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
+=======
+    <CodesignProvision>45d0b86f-1d7c-4703-8b6e-f319f8d616a3</CodesignProvision>
+>>>>>>> master:t4s/t4s.csproj
     <BuildIpa>true</BuildIpa>
     <IpaPackageName>
     </IpaPackageName>

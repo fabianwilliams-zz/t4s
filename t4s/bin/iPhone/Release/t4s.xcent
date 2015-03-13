@@ -3,11 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>get-task-allow</key>
+<<<<<<< HEAD
 	<true/>
+=======
+	<false/>
+>>>>>>> master
 	<key>application-identifier</key>
 	<string>8FXYXU923K.net.azure-mobile.t4s</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>8FXYXU923K</string>
+<<<<<<< HEAD
+=======
+	<key>beta-reports-active</key>
+	<true/>
+>>>>>>> master
 	<key>keychain-access-groups</key>
 	<array>
 		<string>8FXYXU923K.net.azure-mobile.t4s</string>
