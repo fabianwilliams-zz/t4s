@@ -10,6 +10,7 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <NuGetPackageImportStamp>71f46945</NuGetPackageImportStamp>
     <Description>Tweet for Swag is an App used in Conferences to allow audience members to Tweet and be entered to win SWAG provided by the speaker.</Description>
+    <AssemblyName>t4s</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
