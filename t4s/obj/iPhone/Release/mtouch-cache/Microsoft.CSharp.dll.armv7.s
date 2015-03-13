@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/ba5d2d1 Thu Feb 26 10:59:01 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/041d473 Tue Mar 10 02:15:10 EDT 2015)"
 	.asciz "Microsoft.CSharp.dll"
 	.asciz ""
 
@@ -4542,28 +4542,28 @@ image_table:
 
 	.long 4
 	.asciz "Microsoft.CSharp"
-	.asciz "F2264CC8-B01B-47F4-8378-7FF16ED83CA8"
+	.asciz "5FA286D7-3993-4364-A8F1-1B4192D968BA"
 	.asciz ""
 	.asciz "b03f5f7f11d50a3a"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "6E466931-A21F-4620-9A7C-947AFD4E1457"
+	.asciz "AC57A9C7-2CC4-47D9-9505-DD281A89869B"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Core"
-	.asciz "CBF35920-8D5D-4D8B-8939-7035096AAA24"
+	.asciz "D7D412FC-FC58-4FBB-AAAD-955572B31688"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "Mono.CSharp"
-	.asciz "0FA2C8A9-94E1-40AF-A32F-A4874815669D"
+	.asciz "FF6F1F6F-D8D7-4895-93FE-2C3FC88C2C1C"
 	.asciz ""
 	.asciz "0738eb9f132ed756"
 	.align 3
@@ -4577,7 +4577,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "F2264CC8-B01B-47F4-8378-7FF16ED83CA8"
+	.asciz "5FA286D7-3993-4364-A8F1-1B4192D968BA"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -22704,8 +22704,8 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/build/common"
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/Microsoft.CSharp/Microsoft.CSharp.RuntimeBinder"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.8.0.2/src/mono/mcs/build/common"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.8.0.2/src/mono/mcs/class/Microsoft.CSharp/Microsoft.CSharp.RuntimeBinder"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
 
 	.byte 0

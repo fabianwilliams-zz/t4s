@@ -17,7 +17,7 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/ba5d2d1 Thu Feb 26 10:59:01 EST 2015)"
+	.asciz "Mono AOT Compiler 3.12.0 (monotouch-8.6.0-branch/041d473 Tue Mar 10 02:15:10 EDT 2015)"
 	.asciz "System.Xml.Linq.dll"
 	.asciz ""
 
@@ -6214,14 +6214,14 @@ extra_method_info_offsets:
 	.align 3
 class_name_table:
 
-	.short 73, 0, 0, 0, 0, 0, 0, 0
-	.short 0, 0, 0, 21, 0, 0, 0, 1
+	.short 73, 0, 0, 29, 0, 0, 0, 0
+	.short 0, 30, 0, 21, 0, 0, 0, 1
 	.short 0, 0, 0, 0, 0, 0, 0, 24
 	.short 75, 16, 0, 0, 0, 0, 0, 0
 	.short 0, 7, 73, 10, 0, 0, 0, 13
 	.short 0, 26, 0, 0, 0, 8, 0, 0
 	.short 0, 11, 0, 0, 0, 27, 0, 0
-	.short 0, 14, 0, 0, 0, 0, 0, 29
+	.short 0, 14, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 0, 0, 15, 0, 9
 	.short 0, 0, 0, 5, 0, 0, 0, 0
 	.short 0, 0, 0, 23, 0, 0, 0, 28
@@ -6231,7 +6231,7 @@ class_name_table:
 	.short 0, 0, 0, 0, 0, 0, 0, 0
 	.short 0, 12, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 4, 0, 0, 0, 0
-	.short 0, 0, 0, 0, 0, 0, 0, 30
+	.short 0, 0, 0, 0, 0, 0, 0, 0
 	.short 0, 0, 0, 19, 0, 22, 0, 25
 	.short 0
 .section __TEXT, __const
@@ -7196,28 +7196,28 @@ image_table:
 
 	.long 4
 	.asciz "System.Xml.Linq"
-	.asciz "3DC5808E-BF7A-4505-A1A1-78235F527ECF"
+	.asciz "463DDDAC-DCE3-4755-B4AB-DAF682317740"
 	.asciz ""
 	.asciz "31bf3856ad364e35"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "6E466931-A21F-4620-9A7C-947AFD4E1457"
+	.asciz "AC57A9C7-2CC4-47D9-9505-DD281A89869B"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Core"
-	.asciz "CBF35920-8D5D-4D8B-8939-7035096AAA24"
+	.asciz "D7D412FC-FC58-4FBB-AAAD-955572B31688"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "System.Xml"
-	.asciz "597D3D82-FA3E-41A6-BE69-130A0021FE07"
+	.asciz "B57B8D6F-DB3E-4F02-9969-5DD2C4D1745E"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
@@ -7231,7 +7231,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "3DC5808E-BF7A-4505-A1A1-78235F527ECF"
+	.asciz "463DDDAC-DCE3-4755-B4AB-DAF682317740"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -21530,9 +21530,9 @@ Ldebug_line_start:
 	.long Ldebug_line_header_end - . -4
 	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
 .section __DWARF, __debug_line,regular,debug
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/System.Xml.Linq/System.Xml.Linq"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.8.0.2/src/mono/mcs/class/System.Xml.Linq/System.Xml.Linq"
 	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/corlib/System"
-	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.6.2.26/src/mono/mcs/class/System.Core/System.Linq"
+	.asciz "///Library/Frameworks/Xamarin.iOS.framework/Versions/8.8.0.2/src/mono/mcs/class/System.Core/System.Linq"
 
 	.byte 0
 	.asciz "<unknown>"

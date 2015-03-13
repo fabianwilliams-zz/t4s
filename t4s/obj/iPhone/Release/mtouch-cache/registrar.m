@@ -76,7 +76,7 @@ void native_to_managed_trampoline_2 (id self, SEL _cmd, MonoMethod **managed_met
 }
 
 
-bool native_to_managed_trampoline_3 (id self, SEL _cmd, MonoMethod **managed_method_ptr, void * p0, const char *r0, const char *r1, const char *r2)
+BOOL native_to_managed_trampoline_3 (id self, SEL _cmd, MonoMethod **managed_method_ptr, void * p0, const char *r0, const char *r1, const char *r2)
 {
 	MonoMethod *managed_method = *managed_method_ptr;
 	void *arg_ptrs [1];
@@ -97,8 +97,8 @@ bool native_to_managed_trampoline_3 (id self, SEL _cmd, MonoMethod **managed_met
 
 	void * retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
 
-	bool res;
-	res = *(bool *) mono_object_unbox (retval);
+	BOOL res;
+	res = *(BOOL *) mono_object_unbox (retval);
 
 	return res;
 }
@@ -403,7 +403,7 @@ void native_to_managed_trampoline_11 (id self, SEL _cmd, MonoMethod **managed_me
 }
 
 
-bool native_to_managed_trampoline_12 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, const char *r0, const char *r1, const char *r2)
+BOOL native_to_managed_trampoline_12 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, const char *r0, const char *r1, const char *r2)
 {
 	MonoMethod *managed_method = *managed_method_ptr;
 	void *arg_ptrs [1];
@@ -430,8 +430,8 @@ bool native_to_managed_trampoline_12 (id self, SEL _cmd, MonoMethod **managed_me
 
 	void * retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
 
-	bool res;
-	res = *(bool *) mono_object_unbox (retval);
+	BOOL res;
+	res = *(BOOL *) mono_object_unbox (retval);
 
 	return res;
 }
@@ -476,7 +476,7 @@ void native_to_managed_trampoline_13 (id self, SEL _cmd, MonoMethod **managed_me
 }
 
 
-void native_to_managed_trampoline_14 (id self, SEL _cmd, MonoMethod **managed_method_ptr, bool p0, const char *r0, const char *r1, const char *r2)
+void native_to_managed_trampoline_14 (id self, SEL _cmd, MonoMethod **managed_method_ptr, BOOL p0, const char *r0, const char *r1, const char *r2)
 {
 	MonoMethod *managed_method = *managed_method_ptr;
 	void *arg_ptrs [1];
@@ -558,7 +558,7 @@ void native_to_managed_trampoline_16 (id self, SEL _cmd, MonoMethod **managed_me
 }
 
 
-bool native_to_managed_trampoline_17 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, NSRange p1, NSString * p2, const char *r0, const char *r1, const char *r2, const char *r3, const char *r4)
+BOOL native_to_managed_trampoline_17 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, NSRange p1, NSString * p2, const char *r0, const char *r1, const char *r2, const char *r3, const char *r4)
 {
 	MonoMethod *managed_method = *managed_method_ptr;
 	void *arg_ptrs [3];
@@ -587,14 +587,14 @@ bool native_to_managed_trampoline_17 (id self, SEL _cmd, MonoMethod **managed_me
 
 	void * retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
 
-	bool res;
-	res = *(bool *) mono_object_unbox (retval);
+	BOOL res;
+	res = *(BOOL *) mono_object_unbox (retval);
 
 	return res;
 }
 
 
-bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, id p1, int p2, const char *r0, const char *r1, const char *r2, const char *r3, const char *r4)
+BOOL native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_method_ptr, id p0, id p1, int p2, const char *r0, const char *r1, const char *r2, const char *r3, const char *r4)
 {
 	MonoMethod *managed_method = *managed_method_ptr;
 	void *arg_ptrs [3];
@@ -630,8 +630,8 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 
 	void * retval = mono_runtime_invoke (managed_method, mthis, arg_ptrs, NULL);
 
-	bool res;
-	res = *(bool *) mono_object_unbox (retval);
+	BOOL res;
+	res = *(BOOL *) mono_object_unbox (retval);
 
 	return res;
 }
@@ -646,7 +646,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) dealloc;
 	-(id) window;
 	-(void) setWindow:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
 @implementation AppDelegate { } 
@@ -681,7 +681,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIWindow, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.AppDelegate, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "set_Window");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -706,7 +706,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) setAddItemButton:(id)p0;
 	-(id) viewcontestbutton;
 	-(void) setViewcontestbutton:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation tfsRootViewController { } 
 	-(void) release
@@ -752,7 +752,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIButton, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.tfsRootViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "set_viewcontestbutton");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -765,7 +765,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) release;
 	-(id) retain;
 	-(void) dealloc;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
 @implementation UITableViewSource { } 
@@ -788,7 +788,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		[super dealloc];
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -844,8 +844,8 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(NSString *) tableView:(id)p0 titleForDeleteConfirmationButtonForRowAtIndexPath:(id)p1;
 	-(int) tableView:(id)p0 editingStyleForRowAtIndexPath:(id)p1;
 	-(void) tableView:(id)p0 commitEditingStyle:(int)p1 forRowAtIndexPath:(id)p2;
-	-(bool) textFieldShouldReturn:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) textFieldShouldReturn:(id)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation QSTodoListViewController { } 
 	-(void) release
@@ -921,13 +921,13 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_11 (self, _cmd, &managed_method, p0, p1, p2, "MonoTouch.UIKit.UITableView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITableViewCellEditingStyle, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSIndexPath, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.QSTodoListViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "CommitEditingStyle");
 	}
 
-	-(bool) textFieldShouldReturn:(id)p0
+	-(BOOL) textFieldShouldReturn:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.QSTodoListViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "ShouldReturn");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -963,7 +963,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) setTxtSpeakerTwitter:(id)p0;
 	-(void) viewDidLoad;
 	-(void) Clicked:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation addSCViewController { } 
 	-(void) release
@@ -1081,7 +1081,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIButton, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.addSCViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "Clicked");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1102,8 +1102,8 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(NSString *) tableView:(id)p0 titleForDeleteConfirmationButtonForRowAtIndexPath:(id)p1;
 	-(int) tableView:(id)p0 editingStyleForRowAtIndexPath:(id)p1;
 	-(void) tableView:(id)p0 commitEditingStyle:(int)p1 forRowAtIndexPath:(id)p2;
-	-(bool) textFieldShouldReturn:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) textFieldShouldReturn:(id)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation shSessionViewController { } 
 	-(void) release
@@ -1173,13 +1173,13 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_11 (self, _cmd, &managed_method, p0, p1, p2, "MonoTouch.UIKit.UITableView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITableViewCellEditingStyle, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSIndexPath, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.shSessionViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "CommitEditingStyle");
 	}
 
-	-(bool) textFieldShouldReturn:(id)p0
+	-(BOOL) textFieldShouldReturn:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.shSessionViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "ShouldReturn");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1200,7 +1200,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) setTxtView:(id)p0;
 	-(void) viewDidLoad;
 	-(void) Clicked:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation TwitterViewController { } 
 	-(void) release
@@ -1258,7 +1258,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIButton, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.TwitterViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "Clicked");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1277,10 +1277,10 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) setBtnTweet:(id)p0;
 	-(id) txtView;
 	-(void) setTxtView:(id)p0;
-	-(void) viewWillAppear:(bool)p0;
+	-(void) viewWillAppear:(BOOL)p0;
 	-(void) viewDidLoad;
 	-(void) Clicked:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation sessDViewController { } 
 	-(void) release
@@ -1326,7 +1326,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.sessDViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "set_txtView");
 	}
 
-	-(void) viewWillAppear:(bool)p0
+	-(void) viewWillAppear:(BOOL)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		native_to_managed_trampoline_14 (self, _cmd, &managed_method, p0, "System.Boolean, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "t4s.sessDViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "ViewWillAppear");
@@ -1344,7 +1344,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIButton, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.sessDViewController, t4s, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "Clicked");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1358,7 +1358,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(id) retain;
 	-(void) dealloc;
 	-(void) xamarinApplySelector;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation __MonoMac_NSAsyncActionDispatcher { } 
 	-(void) release
@@ -1386,7 +1386,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_7 (self, _cmd, &managed_method, "MonoTouch.Foundation.NSAsyncActionDispatcher, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Apply");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1400,7 +1400,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(id) retain;
 	-(void) dealloc;
 	-(void) BridgeSelector;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation MonoTouch_UIKit_UIControlEventProxy { } 
 	-(void) release
@@ -1428,7 +1428,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_7 (self, _cmd, &managed_method, "MonoTouch.UIKit.UIControlEventProxy, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Activated");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1442,7 +1442,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(id) retain;
 	-(void) dealloc;
 	+(void) drain:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
 @implementation __NSObject_Disposer { } 
@@ -1471,7 +1471,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_15 (self, _cmd, &managed_method, p0, "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSObject+NSObject_Disposer, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Drain");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1494,10 +1494,10 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) alertView:(id)p0 clickedButtonAtIndex:(int)p1;
 	-(void) alertView:(id)p0 didDismissWithButtonIndex:(int)p1;
 	-(void) didPresentAlertView:(id)p0;
-	-(bool) alertViewShouldEnableFirstOtherButton:(id)p0;
+	-(BOOL) alertViewShouldEnableFirstOtherButton:(id)p0;
 	-(void) alertView:(id)p0 willDismissWithButtonIndex:(int)p1;
 	-(void) willPresentAlertView:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation MonoTouch_UIKit_UIAlertView__UIAlertViewDelegate { } 
 	-(void) release
@@ -1543,7 +1543,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIAlertView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UIAlertView+_UIAlertViewDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Presented");
 	}
 
-	-(bool) alertViewShouldEnableFirstOtherButton:(id)p0
+	-(BOOL) alertViewShouldEnableFirstOtherButton:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIAlertView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UIAlertView+_UIAlertViewDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldEnableFirstOtherButton");
@@ -1561,7 +1561,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIAlertView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UIAlertView+_UIAlertViewDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "WillPresent");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1575,7 +1575,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(id) retain;
 	-(void) dealloc;
 	-(void) InvokeAction:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
 @implementation MonoTouch_UIKit_UIBarButtonItem_Callback { } 
@@ -1604,7 +1604,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UIBarButtonItem+Callback, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Call");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1625,12 +1625,12 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) dealloc;
 	-(void) textFieldDidEndEditing:(id)p0;
 	-(void) textFieldDidBeginEditing:(id)p0;
-	-(bool) textFieldShouldBeginEditing:(id)p0;
-	-(bool) textField:(id)p0 shouldChangeCharactersInRange:(NSRange)p1 replacementString:(NSString *)p2;
-	-(bool) textFieldShouldClear:(id)p0;
-	-(bool) textFieldShouldEndEditing:(id)p0;
-	-(bool) textFieldShouldReturn:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) textFieldShouldBeginEditing:(id)p0;
+	-(BOOL) textField:(id)p0 shouldChangeCharactersInRange:(NSRange)p1 replacementString:(NSString *)p2;
+	-(BOOL) textFieldShouldClear:(id)p0;
+	-(BOOL) textFieldShouldEndEditing:(id)p0;
+	-(BOOL) textFieldShouldReturn:(id)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 	-(id) init;
 @end
 @implementation MonoTouch_UIKit_UITextField__UITextFieldDelegate { } 
@@ -1665,37 +1665,37 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITextField+_UITextFieldDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "EditingStarted");
 	}
 
-	-(bool) textFieldShouldBeginEditing:(id)p0
+	-(BOOL) textFieldShouldBeginEditing:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITextField+_UITextFieldDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldBeginEditing");
 	}
 
-	-(bool) textField:(id)p0 shouldChangeCharactersInRange:(NSRange)p1 replacementString:(NSString *)p2
+	-(BOOL) textField:(id)p0 shouldChangeCharactersInRange:(NSRange)p1 replacementString:(NSString *)p2
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_17 (self, _cmd, &managed_method, p0, p1, p2, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSRange, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "System.String, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.UIKit.UITextField+_UITextFieldDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldChangeCharacters");
 	}
 
-	-(bool) textFieldShouldClear:(id)p0
+	-(BOOL) textFieldShouldClear:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITextField+_UITextFieldDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldClear");
 	}
 
-	-(bool) textFieldShouldEndEditing:(id)p0
+	-(BOOL) textFieldShouldEndEditing:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITextField+_UITextFieldDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldEndEditing");
 	}
 
-	-(bool) textFieldShouldReturn:(id)p0
+	-(BOOL) textFieldShouldReturn:(id)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_12 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UITextField, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UITextField+_UITextFieldDelegate, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldReturn");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1714,7 +1714,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) release;
 	-(id) retain;
 	-(void) dealloc;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Controls__MobileServices_ProgressLabel { } 
 	-(void) release
@@ -1736,7 +1736,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		[super dealloc];
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1750,7 +1750,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(id) retain;
 	-(void) dealloc;
 	-(void) tableView:(id)p0 didSelectRowAtIndexPath:(id)p1;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate { } 
 	-(void) release
@@ -1778,7 +1778,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, p1, "MonoTouch.UIKit.UITableView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSIndexPath, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Xamarin.Auth._MobileServices.FormAuthenticatorController+FormDelegate, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", "RowSelected");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1791,7 +1791,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) release;
 	-(id) retain;
 	-(void) dealloc;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Auth__MobileServices_FormAuthenticatorController { } 
 	-(void) release
@@ -1813,7 +1813,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		[super dealloc];
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1826,11 +1826,11 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) release;
 	-(id) retain;
 	-(void) dealloc;
-	-(bool) webView:(id)p0 shouldStartLoadWithRequest:(id)p1 navigationType:(int)p2;
+	-(BOOL) webView:(id)p0 shouldStartLoadWithRequest:(id)p1 navigationType:(int)p2;
 	-(void) webViewDidStartLoad:(id)p0;
 	-(void) webView:(id)p0 didFailLoadWithError:(id)p1;
 	-(void) webViewDidFinishLoad:(id)p0;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Auth__MobileServices_WebAuthenticatorController_WebViewDelegate { } 
 	-(void) release
@@ -1852,7 +1852,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		[super dealloc];
 	}
 
-	-(bool) webView:(id)p0 shouldStartLoadWithRequest:(id)p1 navigationType:(int)p2
+	-(BOOL) webView:(id)p0 shouldStartLoadWithRequest:(id)p1 navigationType:(int)p2
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, p1, p2, "MonoTouch.UIKit.UIWebView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSUrlRequest, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.UIKit.UIWebViewNavigationType, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Xamarin.Auth._MobileServices.WebAuthenticatorController+WebViewDelegate, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", "ShouldStartLoad");
@@ -1876,7 +1876,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "MonoTouch.UIKit.UIWebView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Xamarin.Auth._MobileServices.WebAuthenticatorController+WebViewDelegate, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", "LoadingFinished");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1889,7 +1889,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) release;
 	-(id) retain;
 	-(void) dealloc;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Auth__MobileServices_WebAuthenticatorController { } 
 	-(void) release
@@ -1911,7 +1911,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		[super dealloc];
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1924,7 +1924,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(void) release;
 	-(id) retain;
 	-(void) dealloc;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell { } 
 	-(void) release
@@ -1946,7 +1946,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		[super dealloc];
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
@@ -1962,7 +1962,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	-(int) numberOfSectionsInTableView:(id)p0;
 	-(int) tableView:(id)p0 numberOfRowsInSection:(int)p1;
 	-(id) tableView:(id)p0 cellForRowAtIndexPath:(id)p1;
-	-(bool) conformsToProtocol:(void *)p0;
+	-(BOOL) conformsToProtocol:(void *)p0;
 @end
 @implementation Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource { } 
 	-(void) release
@@ -2002,7 +2002,7 @@ bool native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		return native_to_managed_trampoline_6 (self, _cmd, &managed_method, p0, p1, "MonoTouch.UIKit.UITableView, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "MonoTouch.Foundation.NSIndexPath, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Xamarin.Auth._MobileServices.FormAuthenticatorController+FormDataSource, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", "GetCell");
 	}
 
-	-(bool) conformsToProtocol:(void *)p0
+	-(BOOL) conformsToProtocol:(void *)p0
 	{
 		static MonoMethod *managed_method = NULL;
 		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "MonoTouch.Foundation.NSObject, monotouch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
