@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
+# Visual Studio 2012
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t4sService", "t4sService\t4sService.csproj", "{209FA716-A7AD-4095-BD70-C8710FC66FA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "t4s", "t4s\t4s.csproj", "{07F1CD1B-626F-4BE5-9840-97B44CBB94C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet4Swag", "t4s\Tweet4Swag.csproj", "{07F1CD1B-626F-4BE5-9840-97B44CBB94C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,8 +38,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = t4s\t4s.csproj
 	EndGlobalSection
 EndGlobal

@@ -5,7 +5,6 @@
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
-		<integer>2</integer>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
@@ -13,14 +12,8 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-	</array>
 	<key>UIMainStoryboardFile</key>
 	<string>MainStoryboard_iPhone</string>
-	<key>UIMainStoryboardFile~ipad</key>
-	<string>MainStoryboard_iPad</string>
 	<key>MinimumOSVersion</key>
 	<string>7.0</string>
 	<key>CFBundleIconFiles</key>
@@ -37,16 +30,19 @@
 		<string>Default-Portrait.png</string>
 		<string>Default-Portrait@2x.png</string>
 	</array>
-	<key>CFBundleDisplayName</key>
-	<string>t4s</string>
 	<key>CFBundleIdentifier</key>
 	<string>net.azure-mobile.t4s</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
+<<<<<<< HEAD
+	<key>CFBundleDisplayName</key>
+	<string>Tweet4Swag</string>
+=======
 	<key>NSMainNibFile</key>
 	<string></string>
 	<key>NSMainNibFile~ipad</key>
 	<string></string>
+>>>>>>> master
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 </dict>

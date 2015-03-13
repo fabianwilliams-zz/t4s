@@ -90,6 +90,69 @@
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/551-os-lVi-view-xrR-li-BWs.nib</key>
 		<data>
+<<<<<<< HEAD
+		wGKUsof4CZIDq4Ir//LVLzrGJxU=
+		</data>
+		<key>MainStoryboard_iPad.storyboardc/UIViewController-551-os-lVi.nib</key>
+		<data>
+		EgBIspOsIo1lt6Yy5Aa5G9H5HqU=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/28-view-29.nib</key>
+		<data>
+		GCnfUwrrJmBx2v8uMIpejj2sQFc=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/377-view-378.nib</key>
+		<data>
+		Sd1SOnu7H5A1MPnJX24mL+Reh+Q=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/700-view-703.nib</key>
+		<data>
+		OAtcrxaLdQ9Wayy/K/pNfVMawyM=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/927-view-928.nib</key>
+		<data>
+		8EU4hOUevGQp8JySNqka7oQVHXA=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-16.nib</key>
+		<data>
+		rTgoYrwOaMrqItSwU7a4aoQyjIQ=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-377.nib</key>
+		<data>
+		EdH/5+LtpxlkHL++vzq1FZefKCA=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-700.nib</key>
+		<data>
+		xxGjnRMJUo8fTb3H3rzh0y+Q4rM=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/allsessions.nib</key>
+		<data>
+		1w+3eMNvnxQeFQIi6xP6+EFiiTE=
+		</data>
+		<key>Microsoft.CSharp.dll</key>
+		<data>
+		ZmlnrBaZgFMgcEkfb56rkZFHiWQ=
+		</data>
+		<key>Microsoft.WindowsAzure.Mobile.Ext.dll</key>
+		<data>
+		/ebZpj7eDm6x3UkBsgMXlTQJAiU=
+		</data>
+		<key>Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</key>
+		<data>
+		VfetwQszQnXYJhShrLWzimuZhVc=
+		</data>
+		<key>Microsoft.WindowsAzure.Mobile.dll</key>
+		<data>
+		uZHVTlQei9+JvnhExRtG2/sKf+A=
+		</data>
+		<key>Mono.CSharp.dll</key>
+		<data>
+		jCLnLEPtqlKyev2pAXNt6+zE9u8=
+		</data>
+		<key>Mono.Dynamic.Interpreter.dll</key>
+		<data>
+		/YtCk0y9UrAjEhQIp9BanKpWtgw=
+=======
 		59Ww3zJYbK64+bIdcdHb0Ai+q0k=
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/UIViewController-551-os-lVi.nib</key>
@@ -151,6 +214,7 @@
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
 		YxPjLKEYYHxgdUt6Ud5drNufrw4=
+>>>>>>> master
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -158,7 +222,11 @@
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
+<<<<<<< HEAD
+		FR8khcLEGwruK86z7sxHvxOAPn0=
+=======
 		ew/PYH3MZSh1TPTNeUGcq6G9BGA=
+>>>>>>> master
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -166,6 +234,41 @@
 		</data>
 		<key>SQLitePCL.Ext.dll</key>
 		<data>
+<<<<<<< HEAD
+		ZXKz/z+NM9jtH+X2QUBy+k/LlM0=
+		</data>
+		<key>SQLitePCL.dll</key>
+		<data>
+		T+Zn7AHRthJ4ENEtYQZXOa9DH7w=
+		</data>
+		<key>System.Core.dll</key>
+		<data>
+		mC2/1EqDhHq3v4mW8Se0l2eR8wE=
+		</data>
+		<key>System.Net.Http.dll</key>
+		<data>
+		dFOd2/iT50k0cbjh4umZCkaV0TQ=
+		</data>
+		<key>System.Runtime.Serialization.dll</key>
+		<data>
+		qAcPzuzwBb+K3N6lK0yRX1mM9P0=
+		</data>
+		<key>System.Xml.Linq.dll</key>
+		<data>
+		NeyNYG9l+qbxK36gHYuKQfFeMhE=
+		</data>
+		<key>System.Xml.dll</key>
+		<data>
+		yLvbBcXkbzDNv6Az7FiNXwAWWMk=
+		</data>
+		<key>System.dll</key>
+		<data>
+		XvTQaaH0to962zagO6lrWHzvqsU=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		cfe/VhyGlQQWvYyHW2IoAuPiemk=
+=======
 		h/Nn5TxDOzty9e9eCopidNILfzw=
 		</data>
 		<key>SQLitePCL.dll</key>
@@ -199,6 +302,7 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		PRzdiHTEMksWogbkZUc27cjG/t8=
+>>>>>>> master
 		</data>
 		<key>icon7-120_fw.png</key>
 		<data>
@@ -206,6 +310,17 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
+<<<<<<< HEAD
+		N1vFT7SSV8yxgelF4fLAtw1I6RQ=
+		</data>
+		<key>mscorlib.dll</key>
+		<data>
+		PM9dEzeFUCmI64LmXO2keMlDT/I=
+		</data>
+		<key>t4s.exe</key>
+		<data>
+		ZWUeU6kribnmAZwkK8SgpTRXidk=
+=======
 		F2YNRCKxcOMU7z0zXGHeUi2COMM=
 		</data>
 		<key>mscorlib.dll</key>
@@ -215,6 +330,7 @@
 		<key>t4s.exe</key>
 		<data>
 		MJI/iGwyxCzwpKDFXOam9LfgBXk=
+>>>>>>> master
 		</data>
 		<key>t4s.exe.config</key>
 		<data>
@@ -313,6 +429,69 @@
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/551-os-lVi-view-xrR-li-BWs.nib</key>
 		<data>
+<<<<<<< HEAD
+		wGKUsof4CZIDq4Ir//LVLzrGJxU=
+		</data>
+		<key>MainStoryboard_iPad.storyboardc/UIViewController-551-os-lVi.nib</key>
+		<data>
+		EgBIspOsIo1lt6Yy5Aa5G9H5HqU=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/28-view-29.nib</key>
+		<data>
+		GCnfUwrrJmBx2v8uMIpejj2sQFc=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/377-view-378.nib</key>
+		<data>
+		Sd1SOnu7H5A1MPnJX24mL+Reh+Q=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/700-view-703.nib</key>
+		<data>
+		OAtcrxaLdQ9Wayy/K/pNfVMawyM=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/927-view-928.nib</key>
+		<data>
+		8EU4hOUevGQp8JySNqka7oQVHXA=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-16.nib</key>
+		<data>
+		rTgoYrwOaMrqItSwU7a4aoQyjIQ=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-377.nib</key>
+		<data>
+		EdH/5+LtpxlkHL++vzq1FZefKCA=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-700.nib</key>
+		<data>
+		xxGjnRMJUo8fTb3H3rzh0y+Q4rM=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/allsessions.nib</key>
+		<data>
+		1w+3eMNvnxQeFQIi6xP6+EFiiTE=
+		</data>
+		<key>Microsoft.CSharp.dll</key>
+		<data>
+		ZmlnrBaZgFMgcEkfb56rkZFHiWQ=
+		</data>
+		<key>Microsoft.WindowsAzure.Mobile.Ext.dll</key>
+		<data>
+		/ebZpj7eDm6x3UkBsgMXlTQJAiU=
+		</data>
+		<key>Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</key>
+		<data>
+		VfetwQszQnXYJhShrLWzimuZhVc=
+		</data>
+		<key>Microsoft.WindowsAzure.Mobile.dll</key>
+		<data>
+		uZHVTlQei9+JvnhExRtG2/sKf+A=
+		</data>
+		<key>Mono.CSharp.dll</key>
+		<data>
+		jCLnLEPtqlKyev2pAXNt6+zE9u8=
+		</data>
+		<key>Mono.Dynamic.Interpreter.dll</key>
+		<data>
+		/YtCk0y9UrAjEhQIp9BanKpWtgw=
+=======
 		59Ww3zJYbK64+bIdcdHb0Ai+q0k=
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/UIViewController-551-os-lVi.nib</key>
@@ -374,6 +553,7 @@
 		<key>Mono.Dynamic.Interpreter.dll</key>
 		<data>
 		YxPjLKEYYHxgdUt6Ud5drNufrw4=
+>>>>>>> master
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -381,7 +561,11 @@
 		</data>
 		<key>Newtonsoft.Json.dll</key>
 		<data>
+<<<<<<< HEAD
+		FR8khcLEGwruK86z7sxHvxOAPn0=
+=======
 		ew/PYH3MZSh1TPTNeUGcq6G9BGA=
+>>>>>>> master
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -389,6 +573,41 @@
 		</data>
 		<key>SQLitePCL.Ext.dll</key>
 		<data>
+<<<<<<< HEAD
+		ZXKz/z+NM9jtH+X2QUBy+k/LlM0=
+		</data>
+		<key>SQLitePCL.dll</key>
+		<data>
+		T+Zn7AHRthJ4ENEtYQZXOa9DH7w=
+		</data>
+		<key>System.Core.dll</key>
+		<data>
+		mC2/1EqDhHq3v4mW8Se0l2eR8wE=
+		</data>
+		<key>System.Net.Http.dll</key>
+		<data>
+		dFOd2/iT50k0cbjh4umZCkaV0TQ=
+		</data>
+		<key>System.Runtime.Serialization.dll</key>
+		<data>
+		qAcPzuzwBb+K3N6lK0yRX1mM9P0=
+		</data>
+		<key>System.Xml.Linq.dll</key>
+		<data>
+		NeyNYG9l+qbxK36gHYuKQfFeMhE=
+		</data>
+		<key>System.Xml.dll</key>
+		<data>
+		yLvbBcXkbzDNv6Az7FiNXwAWWMk=
+		</data>
+		<key>System.dll</key>
+		<data>
+		XvTQaaH0to962zagO6lrWHzvqsU=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		cfe/VhyGlQQWvYyHW2IoAuPiemk=
+=======
 		h/Nn5TxDOzty9e9eCopidNILfzw=
 		</data>
 		<key>SQLitePCL.dll</key>
@@ -422,6 +641,7 @@
 		<key>embedded.mobileprovision</key>
 		<data>
 		PRzdiHTEMksWogbkZUc27cjG/t8=
+>>>>>>> master
 		</data>
 		<key>icon7-120_fw.png</key>
 		<data>
@@ -429,6 +649,17 @@
 		</data>
 		<key>monotouch.dll</key>
 		<data>
+<<<<<<< HEAD
+		N1vFT7SSV8yxgelF4fLAtw1I6RQ=
+		</data>
+		<key>mscorlib.dll</key>
+		<data>
+		PM9dEzeFUCmI64LmXO2keMlDT/I=
+		</data>
+		<key>t4s.exe</key>
+		<data>
+		ZWUeU6kribnmAZwkK8SgpTRXidk=
+=======
 		F2YNRCKxcOMU7z0zXGHeUi2COMM=
 		</data>
 		<key>mscorlib.dll</key>
@@ -438,6 +669,7 @@
 		<key>t4s.exe</key>
 		<data>
 		MJI/iGwyxCzwpKDFXOam9LfgBXk=
+>>>>>>> master
 		</data>
 		<key>t4s.exe.config</key>
 		<data>

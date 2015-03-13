@@ -25,7 +25,7 @@ I also discussed Application Lifecycle Management related to Mobile Development 
 <li>Single View iOS Application (initially) as the Client to consume this Azure Mobile Service App</li>
 <li>Twitter API integration using Xamarin example found on Xamarin Site under the Developer Tab filtered by iOS</li>
 <li>Azure Mobile Service Schedule Job to monitor for Tweets related to this session</li>
-<li>Azure Mobile Service Push Notificaiton to pick a tweet as the winner</li>
+<li>Set for Version 2 - Azure Mobile Service Push Notificaiton to pick a tweet as the winner</li>
 <li>Summary
 </ol>
 
