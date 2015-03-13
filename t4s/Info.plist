@@ -35,7 +35,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>net.azure-mobile.t4s</string>
 	<key>CFBundleVersion</key>
-	<string>1.9</string>
+	<string>1.10</string>
 	<key>CFBundleDisplayName</key>
 	<string>Tweet4Swag</string>
 	<key>CFBundleShortVersionString</key>
