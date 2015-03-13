@@ -10,7 +10,6 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <NuGetPackageImportStamp>71f46945</NuGetPackageImportStamp>
     <Description>Tweet for Swag is an App used in Conferences to allow audience members to Tweet and be entered to win SWAG provided by the speaker.</Description>
-    <AssemblyName>t4s</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -68,12 +67,16 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Distribution: Adotob, LLC (8FXYXU923K)</CodesignKey>
     <ConsolePause>false</ConsolePause>
     <AssemblyName>t4s</AssemblyName>
     <MtouchI18n>
     </MtouchI18n>
     <MtouchArch>ARMv7</MtouchArch>
+    <CodesignProvision>45d0b86f-1d7c-4703-8b6e-f319f8d616a3</CodesignProvision>
+    <BuildIpa>true</BuildIpa>
+    <IpaPackageName>
+    </IpaPackageName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
     <Optimize>false</Optimize>
@@ -192,6 +195,7 @@
     <BundleResource Include="Resources\Icon%402x.png" />
     <BundleResource Include="Resources\Default.png" />
     <BundleResource Include="Resources\Default%402x.png" />
+    <BundleResource Include="Resources\Icon-Small.png" />
   </ItemGroup>
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

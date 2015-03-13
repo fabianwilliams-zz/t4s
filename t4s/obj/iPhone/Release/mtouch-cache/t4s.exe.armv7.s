@@ -8325,7 +8325,7 @@ image_table:
 
 	.long 7
 	.asciz "t4s"
-	.asciz "EB21231B-7B6C-4503-9145-ECCB46CD46A6"
+	.asciz "59CDAF6A-360C-4457-A549-7957262E9831"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -8381,7 +8381,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "EB21231B-7B6C-4503-9145-ECCB46CD46A6"
+	.asciz "59CDAF6A-360C-4457-A549-7957262E9831"
 .section __TEXT, __const
 	.align 2
 runtime_version:
