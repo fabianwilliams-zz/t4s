@@ -1,7 +1,7 @@
 using System;
-using System.Drawing;
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
+using CoreGraphics;
+using UIKit;
+using Foundation;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
@@ -63,7 +63,7 @@ namespace t4s
 		}
 
 		#region UITableView methods
-		public override int RowsInSection (UITableView tableview, int section)
+		public override nint RowsInSection (UITableView tableview, nint section)
 		{
 			if (todoService == null || todoService.Items == null)
 				return 0;
@@ -71,7 +71,7 @@ namespace t4s
 			return todoService.Items.Count;
 		}
 
-		public override int NumberOfSections (UITableView tableView)
+		public override nint NumberOfSections (UITableView tableView)
 		{
 			return 1;
 		}

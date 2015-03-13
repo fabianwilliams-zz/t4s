@@ -1,6 +1,6 @@
-﻿using System;
-using MonoTouch.Foundation;
-using MonoTouch.UIKit;
+using System;
+using Foundation;
+using UIKit;
 using System.CodeDom.Compiler;
 
 namespace t4s
@@ -21,7 +21,7 @@ namespace t4s
 			tableItems = items;
 		}
 
-		public override int RowsInSection (UITableView tableview, int section)
+		public override nint RowsInSection (UITableView tableview, nint section)
 		{
 			return tweetService.Items.Count;
 		}
