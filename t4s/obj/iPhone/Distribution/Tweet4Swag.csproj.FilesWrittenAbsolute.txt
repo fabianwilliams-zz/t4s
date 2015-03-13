@@ -41,10 +41,10 @@
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/Tweet4Swag.exe
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/obj/iPhone/Distribution/Tweet4Swag.exe
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/Newtonsoft.Json.dll
-/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/SQLitePCL.dll
-/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/SQLitePCL.Ext.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/System.Net.Http.Primitives.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/System.Net.Http.Extensions.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/SQLitePCL.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/SQLitePCL.Ext.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/Microsoft.WindowsAzure.Mobile.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/Microsoft.WindowsAzure.Mobile.Ext.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4s/bin/iPhone/Distribution/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll
