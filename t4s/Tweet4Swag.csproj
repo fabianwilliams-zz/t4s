@@ -182,6 +182,10 @@
       <DependentUpon>sessDViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="RootTableSource.cs" />
+    <Compile Include="PolicyandRules.cs" />
+    <Compile Include="PolicyandRules.designer.cs">
+      <DependentUpon>PolicyandRules.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainStoryboard_iPhone.storyboard" />
