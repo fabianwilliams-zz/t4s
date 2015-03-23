@@ -1,7 +1,7 @@
 #include "xamarin/xamarin.h"
 
 extern void *mono_aot_module_t4s_info;
-extern void *mono_aot_module_monotouch_info;
+extern void *mono_aot_module_Xamarin_iOS_info;
 extern void *mono_aot_module_mscorlib_info;
 extern void *mono_aot_module_System_info;
 extern void *mono_aot_module_System_Xml_info;
@@ -23,7 +23,7 @@ extern void *mono_aot_module_Microsoft_WindowsAzure_Mobile_SQLiteStore_info;
 void xamarin_register_modules ()
 {
 	mono_aot_register_module (mono_aot_module_t4s_info);
-	mono_aot_register_module (mono_aot_module_monotouch_info);
+	mono_aot_register_module (mono_aot_module_Xamarin_iOS_info);
 	mono_aot_register_module (mono_aot_module_mscorlib_info);
 	mono_aot_register_module (mono_aot_module_System_info);
 	mono_aot_register_module (mono_aot_module_System_Xml_info);
@@ -46,7 +46,7 @@ void xamarin_register_modules ()
 
 void xamarin_register_assemblies ()
 {
-	xamarin_open_and_register ("monotouch.dll");
+	xamarin_open_and_register ("Xamarin.iOS.dll");
 	xamarin_open_and_register ("Microsoft.WindowsAzure.Mobile.Ext.dll");
 
 }
@@ -57,11 +57,12 @@ void xamarin_setup ()
 	xamarin_create_classes ();
 	xamarin_enable_debug_tracking = FALSE;
 	xamarin_executable_name = "t4s.exe";
-	xamarin_use_new_assemblies = 0;
+	xamarin_use_new_assemblies = 1;
 	mono_use_llvm = FALSE;
 	xamarin_log_level = 0;
 	xamarin_debug_mode = TRUE;
-	xamarin_new_refcount = FALSE;
+	xamarin_new_refcount = TRUE;
+	setenv ("MONO_GC_PARAMS", "nursery-size=512k", 1);
 }
 
 int main (int argc, char **argv)

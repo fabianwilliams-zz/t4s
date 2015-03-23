@@ -4,9 +4,137 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.monotouch-32/Microsoft.CSharp.dll</key>
+		<data>
+		hZKg8vmrX1aWwRUK5vzLJHOuPco=
+		</data>
+		<key>.monotouch-32/Microsoft.CSharp.dll.mdb</key>
+		<data>
+		CqgOa3Rs5HQR47+fZPWcaGtffMk=
+		</data>
+		<key>.monotouch-32/Microsoft.WindowsAzure.Mobile.Ext.dll</key>
+		<data>
+		q+6bB6fJBcwbfUIOlL4+n5qsKkw=
+		</data>
+		<key>.monotouch-32/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</key>
+		<data>
+		L+i8b+eGbo0upaSZoJmUQHDwnj0=
+		</data>
+		<key>.monotouch-32/Microsoft.WindowsAzure.Mobile.dll</key>
+		<data>
+		sy8EjK/Wnl1EWhPCjpEytSBOa8o=
+		</data>
+		<key>.monotouch-32/Mono.CSharp.dll</key>
+		<data>
+		qrQcl0O/nPFpFlkRwve7Yj0QKOQ=
+		</data>
+		<key>.monotouch-32/Mono.CSharp.dll.mdb</key>
+		<data>
+		dURpARtjRx+0vi6nK1hO2kIuj1g=
+		</data>
+		<key>.monotouch-32/Mono.Dynamic.Interpreter.dll</key>
+		<data>
+		k4pwe4pkD43OtAcd9kA31jER8a0=
+		</data>
+		<key>.monotouch-32/Mono.Dynamic.Interpreter.dll.mdb</key>
+		<data>
+		hCYPyW3BnAcpueLBIX22vI8cUY8=
+		</data>
+		<key>.monotouch-32/Newtonsoft.Json.dll</key>
+		<data>
+		/t/LahQSaRcGiqqkCgUfoaw13/o=
+		</data>
+		<key>.monotouch-32/SQLitePCL.Ext.dll</key>
+		<data>
+		nL0p5GXqZOHAIxNGl8ERTVAu6WY=
+		</data>
+		<key>.monotouch-32/SQLitePCL.dll</key>
+		<data>
+		mC4djc5l2rsewb3fG/SAGEFygSw=
+		</data>
+		<key>.monotouch-32/System.Core.dll</key>
+		<data>
+		VtnmTEFNrOG7+kOr2zuAfOjQy3U=
+		</data>
+		<key>.monotouch-32/System.Core.dll.mdb</key>
+		<data>
+		6RCQ694j1HlueCpFSuII4gxRfPs=
+		</data>
+		<key>.monotouch-32/System.Net.Http.Primitives.dll</key>
+		<data>
+		hOU1ZQgY98zZgO2vdiJQBHNjfQU=
+		</data>
+		<key>.monotouch-32/System.Net.Http.dll</key>
+		<data>
+		9aP01Wt3ufwKJOPvE2c1Kax6hAk=
+		</data>
+		<key>.monotouch-32/System.Net.Http.dll.mdb</key>
+		<data>
+		uRgJJ1txiqP3nTTzx6J0Osgcoeg=
+		</data>
+		<key>.monotouch-32/System.Runtime.Serialization.dll</key>
+		<data>
+		q7Wy1VFSRKXXrAfYnMxAjhsKfXM=
+		</data>
+		<key>.monotouch-32/System.Runtime.Serialization.dll.mdb</key>
+		<data>
+		/+2HRne14zuQdId5lM1QjWu0z+4=
+		</data>
+		<key>.monotouch-32/System.Xml.Linq.dll</key>
+		<data>
+		D7WLC39lm7ZJn4K0lv3tTc03VUU=
+		</data>
+		<key>.monotouch-32/System.Xml.Linq.dll.mdb</key>
+		<data>
+		Yumu8Ha9hN5h/DM8Ws6nWkGyInU=
+		</data>
+		<key>.monotouch-32/System.Xml.dll</key>
+		<data>
+		ivlEcb7toUhLqcRppFTttT+tb5w=
+		</data>
+		<key>.monotouch-32/System.Xml.dll.mdb</key>
+		<data>
+		ABsPUX+d3ziU/fJFEdHGRDi3XdU=
+		</data>
+		<key>.monotouch-32/System.dll</key>
+		<data>
+		YFKWNrUaDiXYcPYJUar9aV0oL/8=
+		</data>
+		<key>.monotouch-32/System.dll.mdb</key>
+		<data>
+		pygwF4PDqK5Xvi0xfOjVjKb1JFo=
+		</data>
+		<key>.monotouch-32/Xamarin.iOS.dll</key>
+		<data>
+		Tsaz59EtUjAbJJm/sZALaQewLXE=
+		</data>
+		<key>.monotouch-32/Xamarin.iOS.dll.mdb</key>
+		<data>
+		JpxJefuZ5UwDyzfkwAZvHhBI/C0=
+		</data>
+		<key>.monotouch-32/mscorlib.dll</key>
+		<data>
+		HOu0+sd7Zq89DbYAPUssqhalnNE=
+		</data>
+		<key>.monotouch-32/mscorlib.dll.mdb</key>
+		<data>
+		GBs9wBsMDvtPHIMZ71/fqsBSyvU=
+		</data>
+		<key>.monotouch-32/t4s.exe</key>
+		<data>
+		h442CcQhNxqhyhitcGX2joX90yA=
+		</data>
+		<key>.monotouch-32/t4s.exe.config</key>
+		<data>
+		JfQ1f4ucAE/+j7EAcrJfReIuY4w=
+		</data>
+		<key>.monotouch-32/t4s.exe.mdb</key>
+		<data>
+		2pq4U1DT7gv4nCEuLh9atnJwpuI=
+		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
-		tdwmA0rA4KEVjJjYAkdniSyzK3I=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Default-568h@2x_fw.png</key>
 		<data>
@@ -46,11 +174,11 @@
 		</data>
 		<key>Default.png</key>
 		<data>
-		CpvFx3mQ2KD06hIMSMvl5CagDds=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		MwuiYMz9AtfuzXo8Hz6GmC4CNAU=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Default@2x_fw.png</key>
 		<data>
@@ -72,9 +200,17 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Icon-Small-40@2x.png</key>
+		<data>
+		qznhrqh2U4DcfrfVXdPWyL0GBF0=
+		</data>
 		<key>Icon-Small-40@2x_fw.png</key>
 		<data>
 		5oRnk05s331oRUeeT5AbroysWTI=
+		</data>
+		<key>Icon-Small.png</key>
+		<data>
+		55aIW6HSxq1e8Fj2lq1PBfMUQc8=
 		</data>
 		<key>Icon-Small@2x_fw.png</key>
 		<data>
@@ -90,7 +226,7 @@
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		YeKcKTVxmhHRGT/IPCl6eR7eZE8=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Icon@2x_fw.png</key>
 		<data>
@@ -102,43 +238,59 @@
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/551-os-lVi-view-xrR-li-BWs.nib</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		hP3Rg6dKdYUu9Akds4su93gUjSo=
+		</data>
+		<key>MainStoryboard_iPad.storyboardc/Info.plist</key>
+		<data>
+		Ff2r8AwtOPMTCzD5J0zGyy9P8eI=
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/UIViewController-551-os-lVi.nib</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		W9jCwxgW2J3Twk26MIpt4tSOsbY=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/1209-view-1210.nib</key>
+		<data>
+		LMTLI29n27S1S0Oq+a25uwwp9uM=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/28-view-29.nib</key>
 		<data>
-		WodknbSOiye3XgIYSjnn3a1fxvo=
+		GQgiRtW1MbbjC7k+0Pky3rqFc6E=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/377-view-378.nib</key>
 		<data>
-		nVLf1dBUWmgxQKPXICbHW/X9JUc=
+		j/pSDEDz49YOtDntF1sWjeQbJWk=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/700-view-703.nib</key>
 		<data>
-		o9b/23y2hkn8KA/zTWKNp9e1N/I=
+		EbMyCURMirCNS4gg+DkoZEcK9L0=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/927-view-928.nib</key>
 		<data>
-		LtE0ZmCivcMYWxfeBe/DusUmCDo=
+		/C6AgykP9rERu6j2WPqJVRHuiY8=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/Info.plist</key>
+		<data>
+		0WlGrof7oHIaxCwCRN+Kz281hns=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-1209.nib</key>
+		<data>
+		zDm/nj5j0ENrZshizV+a98Bf+m4=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-16.nib</key>
 		<data>
-		uDPI+pBzKuM1Bur+GEHkNdV6I00=
+		B/tCPb9oWi41lTdzpb6dPFEcbqo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-377.nib</key>
 		<data>
-		iChYC2oNrNELXRBy9WD5opyofwU=
+		EdCA5xlOD+cnJN7cLwkduybIqYo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-700.nib</key>
 		<data>
-		/nYQsV3VtJdS1G9zobVd0lAGT1k=
+		pjfSAZwhRy21KC7+TSrRfftCqeM=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/allsessions.nib</key>
 		<data>
-		dpPTRe97DFVSf9FnROESBgn89k0=
+		Ny0bc758ld53d3duC9yDdLtx9oQ=
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
@@ -178,7 +330,7 @@
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
-		ItLoJ+7xLrhE/5yifVbfrivUMms=
+		oowkf1sL6T19nanXUObgmuayWqM=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -256,13 +408,17 @@
 		<data>
 		60aJnTZjXLzcmvVz95+N90omMDg=
 		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		T1qB+K+xKFHiQ7WZZ9dbZfxToQk=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		1UKD1SdN2Gv8p1gFR5GLpny+Gpk=
+		cfe/VhyGlQQWvYyHW2IoAuPiemk=
 		</data>
 		<key>iTunesMetadata.plist</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		Psm0m6fPpBPruVKGG9NMQf/o6Uc=
 		</data>
 		<key>icon7-120_fw.png</key>
 		<data>
@@ -303,9 +459,137 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>.monotouch-32/Microsoft.CSharp.dll</key>
+		<data>
+		hZKg8vmrX1aWwRUK5vzLJHOuPco=
+		</data>
+		<key>.monotouch-32/Microsoft.CSharp.dll.mdb</key>
+		<data>
+		CqgOa3Rs5HQR47+fZPWcaGtffMk=
+		</data>
+		<key>.monotouch-32/Microsoft.WindowsAzure.Mobile.Ext.dll</key>
+		<data>
+		q+6bB6fJBcwbfUIOlL4+n5qsKkw=
+		</data>
+		<key>.monotouch-32/Microsoft.WindowsAzure.Mobile.SQLiteStore.dll</key>
+		<data>
+		L+i8b+eGbo0upaSZoJmUQHDwnj0=
+		</data>
+		<key>.monotouch-32/Microsoft.WindowsAzure.Mobile.dll</key>
+		<data>
+		sy8EjK/Wnl1EWhPCjpEytSBOa8o=
+		</data>
+		<key>.monotouch-32/Mono.CSharp.dll</key>
+		<data>
+		qrQcl0O/nPFpFlkRwve7Yj0QKOQ=
+		</data>
+		<key>.monotouch-32/Mono.CSharp.dll.mdb</key>
+		<data>
+		dURpARtjRx+0vi6nK1hO2kIuj1g=
+		</data>
+		<key>.monotouch-32/Mono.Dynamic.Interpreter.dll</key>
+		<data>
+		k4pwe4pkD43OtAcd9kA31jER8a0=
+		</data>
+		<key>.monotouch-32/Mono.Dynamic.Interpreter.dll.mdb</key>
+		<data>
+		hCYPyW3BnAcpueLBIX22vI8cUY8=
+		</data>
+		<key>.monotouch-32/Newtonsoft.Json.dll</key>
+		<data>
+		/t/LahQSaRcGiqqkCgUfoaw13/o=
+		</data>
+		<key>.monotouch-32/SQLitePCL.Ext.dll</key>
+		<data>
+		nL0p5GXqZOHAIxNGl8ERTVAu6WY=
+		</data>
+		<key>.monotouch-32/SQLitePCL.dll</key>
+		<data>
+		mC4djc5l2rsewb3fG/SAGEFygSw=
+		</data>
+		<key>.monotouch-32/System.Core.dll</key>
+		<data>
+		VtnmTEFNrOG7+kOr2zuAfOjQy3U=
+		</data>
+		<key>.monotouch-32/System.Core.dll.mdb</key>
+		<data>
+		6RCQ694j1HlueCpFSuII4gxRfPs=
+		</data>
+		<key>.monotouch-32/System.Net.Http.Primitives.dll</key>
+		<data>
+		hOU1ZQgY98zZgO2vdiJQBHNjfQU=
+		</data>
+		<key>.monotouch-32/System.Net.Http.dll</key>
+		<data>
+		9aP01Wt3ufwKJOPvE2c1Kax6hAk=
+		</data>
+		<key>.monotouch-32/System.Net.Http.dll.mdb</key>
+		<data>
+		uRgJJ1txiqP3nTTzx6J0Osgcoeg=
+		</data>
+		<key>.monotouch-32/System.Runtime.Serialization.dll</key>
+		<data>
+		q7Wy1VFSRKXXrAfYnMxAjhsKfXM=
+		</data>
+		<key>.monotouch-32/System.Runtime.Serialization.dll.mdb</key>
+		<data>
+		/+2HRne14zuQdId5lM1QjWu0z+4=
+		</data>
+		<key>.monotouch-32/System.Xml.Linq.dll</key>
+		<data>
+		D7WLC39lm7ZJn4K0lv3tTc03VUU=
+		</data>
+		<key>.monotouch-32/System.Xml.Linq.dll.mdb</key>
+		<data>
+		Yumu8Ha9hN5h/DM8Ws6nWkGyInU=
+		</data>
+		<key>.monotouch-32/System.Xml.dll</key>
+		<data>
+		ivlEcb7toUhLqcRppFTttT+tb5w=
+		</data>
+		<key>.monotouch-32/System.Xml.dll.mdb</key>
+		<data>
+		ABsPUX+d3ziU/fJFEdHGRDi3XdU=
+		</data>
+		<key>.monotouch-32/System.dll</key>
+		<data>
+		YFKWNrUaDiXYcPYJUar9aV0oL/8=
+		</data>
+		<key>.monotouch-32/System.dll.mdb</key>
+		<data>
+		pygwF4PDqK5Xvi0xfOjVjKb1JFo=
+		</data>
+		<key>.monotouch-32/Xamarin.iOS.dll</key>
+		<data>
+		Tsaz59EtUjAbJJm/sZALaQewLXE=
+		</data>
+		<key>.monotouch-32/Xamarin.iOS.dll.mdb</key>
+		<data>
+		JpxJefuZ5UwDyzfkwAZvHhBI/C0=
+		</data>
+		<key>.monotouch-32/mscorlib.dll</key>
+		<data>
+		HOu0+sd7Zq89DbYAPUssqhalnNE=
+		</data>
+		<key>.monotouch-32/mscorlib.dll.mdb</key>
+		<data>
+		GBs9wBsMDvtPHIMZ71/fqsBSyvU=
+		</data>
+		<key>.monotouch-32/t4s.exe</key>
+		<data>
+		h442CcQhNxqhyhitcGX2joX90yA=
+		</data>
+		<key>.monotouch-32/t4s.exe.config</key>
+		<data>
+		JfQ1f4ucAE/+j7EAcrJfReIuY4w=
+		</data>
+		<key>.monotouch-32/t4s.exe.mdb</key>
+		<data>
+		2pq4U1DT7gv4nCEuLh9atnJwpuI=
+		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
-		tdwmA0rA4KEVjJjYAkdniSyzK3I=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Default-568h@2x_fw.png</key>
 		<data>
@@ -345,11 +629,11 @@
 		</data>
 		<key>Default.png</key>
 		<data>
-		CpvFx3mQ2KD06hIMSMvl5CagDds=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Default@2x.png</key>
 		<data>
-		MwuiYMz9AtfuzXo8Hz6GmC4CNAU=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Default@2x_fw.png</key>
 		<data>
@@ -371,9 +655,17 @@
 		<data>
 		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
+		<key>Icon-Small-40@2x.png</key>
+		<data>
+		qznhrqh2U4DcfrfVXdPWyL0GBF0=
+		</data>
 		<key>Icon-Small-40@2x_fw.png</key>
 		<data>
 		5oRnk05s331oRUeeT5AbroysWTI=
+		</data>
+		<key>Icon-Small.png</key>
+		<data>
+		55aIW6HSxq1e8Fj2lq1PBfMUQc8=
 		</data>
 		<key>Icon-Small@2x_fw.png</key>
 		<data>
@@ -389,7 +681,7 @@
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		YeKcKTVxmhHRGT/IPCl6eR7eZE8=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Icon@2x_fw.png</key>
 		<data>
@@ -401,43 +693,59 @@
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/551-os-lVi-view-xrR-li-BWs.nib</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		hP3Rg6dKdYUu9Akds4su93gUjSo=
+		</data>
+		<key>MainStoryboard_iPad.storyboardc/Info.plist</key>
+		<data>
+		Ff2r8AwtOPMTCzD5J0zGyy9P8eI=
 		</data>
 		<key>MainStoryboard_iPad.storyboardc/UIViewController-551-os-lVi.nib</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		W9jCwxgW2J3Twk26MIpt4tSOsbY=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/1209-view-1210.nib</key>
+		<data>
+		LMTLI29n27S1S0Oq+a25uwwp9uM=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/28-view-29.nib</key>
 		<data>
-		WodknbSOiye3XgIYSjnn3a1fxvo=
+		GQgiRtW1MbbjC7k+0Pky3rqFc6E=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/377-view-378.nib</key>
 		<data>
-		nVLf1dBUWmgxQKPXICbHW/X9JUc=
+		j/pSDEDz49YOtDntF1sWjeQbJWk=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/700-view-703.nib</key>
 		<data>
-		o9b/23y2hkn8KA/zTWKNp9e1N/I=
+		EbMyCURMirCNS4gg+DkoZEcK9L0=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/927-view-928.nib</key>
 		<data>
-		LtE0ZmCivcMYWxfeBe/DusUmCDo=
+		/C6AgykP9rERu6j2WPqJVRHuiY8=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/Info.plist</key>
+		<data>
+		0WlGrof7oHIaxCwCRN+Kz281hns=
+		</data>
+		<key>MainStoryboard_iPhone.storyboardc/UIViewController-1209.nib</key>
+		<data>
+		zDm/nj5j0ENrZshizV+a98Bf+m4=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-16.nib</key>
 		<data>
-		uDPI+pBzKuM1Bur+GEHkNdV6I00=
+		B/tCPb9oWi41lTdzpb6dPFEcbqo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-377.nib</key>
 		<data>
-		iChYC2oNrNELXRBy9WD5opyofwU=
+		EdCA5xlOD+cnJN7cLwkduybIqYo=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/UIViewController-700.nib</key>
 		<data>
-		/nYQsV3VtJdS1G9zobVd0lAGT1k=
+		pjfSAZwhRy21KC7+TSrRfftCqeM=
 		</data>
 		<key>MainStoryboard_iPhone.storyboardc/allsessions.nib</key>
 		<data>
-		dpPTRe97DFVSf9FnROESBgn89k0=
+		Ny0bc758ld53d3duC9yDdLtx9oQ=
 		</data>
 		<key>Microsoft.CSharp.dll</key>
 		<data>
@@ -477,7 +785,7 @@
 		</data>
 		<key>MonoTouchDebugConfiguration.txt</key>
 		<data>
-		ItLoJ+7xLrhE/5yifVbfrivUMms=
+		oowkf1sL6T19nanXUObgmuayWqM=
 		</data>
 		<key>NOTICE</key>
 		<data>
@@ -555,13 +863,17 @@
 		<data>
 		60aJnTZjXLzcmvVz95+N90omMDg=
 		</data>
+		<key>archived-expanded-entitlements.xcent</key>
+		<data>
+		T1qB+K+xKFHiQ7WZZ9dbZfxToQk=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		1UKD1SdN2Gv8p1gFR5GLpny+Gpk=
+		cfe/VhyGlQQWvYyHW2IoAuPiemk=
 		</data>
 		<key>iTunesMetadata.plist</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		Psm0m6fPpBPruVKGG9NMQf/o6Uc=
 		</data>
 		<key>icon7-120_fw.png</key>
 		<data>
@@ -604,14 +916,14 @@
 	<dict>
 		<key>.*</key>
 		<true/>
-		<key>Info.plist</key>
+		<key>^Info.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>10</real>
 		</dict>
-		<key>ResourceRules.plist</key>
+		<key>^ResourceRules.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
@@ -623,26 +935,26 @@
 	<dict>
 		<key>.*</key>
 		<true/>
-		<key>Info.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
-		</dict>
-		<key>ResourceRules.plist</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>100</real>
-		</dict>
 		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
 		<dict>
 			<key>nested</key>
 			<true/>
 			<key>weight</key>
 			<real>0.0</real>
+		</dict>
+		<key>^Info.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^ResourceRules.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
 		</dict>
 	</dict>
 </dict>

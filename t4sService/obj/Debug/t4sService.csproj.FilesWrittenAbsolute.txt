@@ -41,3 +41,12 @@
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/Microsoft.Data.Edm.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/Microsoft.Data.OData.dll
 /Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Spatial.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/LinqToTwitter.AspNet.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/LinqToTwitterPcl.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/Microsoft.WindowsAzure.Mobile.Service.Security.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Net.Http.Extensions.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Net.Http.Primitives.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Reactive.Core.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Reactive.Interfaces.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Reactive.Linq.dll
+/Users/devpreso/Documents/1CodeProjects/Xamarin/Dev/t4s/t4sService/bin/System.Reactive.PlatformServices.dll
