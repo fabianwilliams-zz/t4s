@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F2BD9023-2A5C-4E9B-9D88-3876AC85967B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tweet4Swag</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4EFF728DFE4CE6C9AF611772C9B1C96CBF858F93</key>
+		<string>https://github.com/fabianwilliams/t4s.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>t4s/obj/Xcode/0/Tweet4Swag.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4EFF728DFE4CE6C9AF611772C9B1C96CBF858F93</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fabianwilliams/t4s.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4EFF728DFE4CE6C9AF611772C9B1C96CBF858F93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4EFF728DFE4CE6C9AF611772C9B1C96CBF858F93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>t4s</string>
+		</dict>
+	</array>
+</dict>
+</plist>
