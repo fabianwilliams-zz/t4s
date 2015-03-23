@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A7F11200000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 938FDB000000000000000000 /* UIKit.framework */; };
+		273D94450000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ACEA0E30000000000000000 /* MapKit.framework */; };
+		3C70FCDD0000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2097B0000000000000000000 /* Foundation.framework */; };
+		2FDBDF260000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336CEBC40000000000000000 /* CoreGraphics.framework */; };
+		3B48A63E0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9B2DC0000000000000000 /* Info.plist */; };
+		107C0ED60000000000000000 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140D1B740000000000000000 /* MainStoryboard_iPhone.storyboard */; };
+		3EA6CFC00000000000000000 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 237DC5E00000000000000000 /* MainStoryboard_iPad.storyboard */; };
+		2CD190AA0000000000000000 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 30629D480000000000000000 /* Default-Portrait.png */; };
+		927127E00000000000000000 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CB81F1C00000000000000000 /* Default-Landscape.png */; };
+		1016489E0000000000000000 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13A7553C0000000000000000 /* Default-Portrait@2x.png */; };
+		3E4109880000000000000000 /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D2162600000000000000000 /* Default-Landscape@2x.png */; };
+		2C6BCA720000000000000000 /* tweetforswag.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FFCD7100000000000000000 /* tweetforswag.png */; };
+		1A968B5C0000000000000000 /* Default_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E2797FA0000000000000000 /* Default_fw.png */; };
+		2185C17C0000000000000000 /* Default-568h@2x_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 2516CE1A0000000000000000 /* Default-568h@2x_fw.png */; };
+		FB0826600000000000000000 /* Default-Landscape@2x~ipad_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 13418F040000000000000000 /* Default-Landscape@2x~ipad_fw.png */; };
+		3DDB43500000000000000000 /* Default-Landscape~ipad_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 16C4FEE00000000000000000 /* Default-Landscape~ipad_fw.png */; };
+		BEC92AC00000000000000000 /* Default-Portrait@2x~ipad_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D9F4A00000000000000000 /* Default-Portrait@2x~ipad_fw.png */; };
+		19FDE2080000000000000000 /* Default-Portrait~ipad_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D8EEEA60000000000000000 /* Default-Portrait~ipad_fw.png */; };
+		828A2F200000000000000000 /* Default@2x_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = BB9AF9000000000000000000 /* Default@2x_fw.png */; };
+		365363DC0000000000000000 /* Icon_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E4707A0000000000000000 /* Icon_fw.png */; };
+		247E24C60000000000000000 /* Icon-60@2x_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 280F31640000000000000000 /* Icon-60@2x_fw.png */; };
+		127602940000000000000000 /* Icon-Small_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 16070F320000000000000000 /* Icon-Small_fw.png */; };
+		A0C37E000000000000000000 /* Icon-Small-40@2x_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 431D01C00000000000000000 /* Icon-Small-40@2x_fw.png */; };
+		2ECB84680000000000000000 /* Icon-Small@2x_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 325C91060000000000000000 /* Icon-Small@2x_fw.png */; };
+		1CF645520000000000000000 /* Icon@2x_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = 208751F00000000000000000 /* Icon@2x_fw.png */; };
+		B21063C00000000000000000 /* icon7-120_fw.png in Resources */ = {isa = PBXBuildFile; fileRef = EB212DA00000000000000000 /* icon7-120_fw.png */; };
+		394BC7260000000000000000 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CDCD3C40000000000000000 /* Icon@2x.png */; };
+		277688100000000000000000 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B0794AE0000000000000000 /* Icon-Small.png */; };
+		15A148FA0000000000000000 /* Icon-Small-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 193255980000000000000000 /* Icon-Small-40@2x.png */; };
+		3CC09E400000000000000000 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 75D168200000000000000000 /* Default.png */; };
+		31F6CACE0000000000000000 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3587D76C0000000000000000 /* Default@2x.png */; };
+		20218BB80000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23B298560000000000000000 /* Default-568h@2x.png */; };
+		DE6866A00000000000000000 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 117793080000000000000000 /* Images.xcassets */; };
+		3930DFEB0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 3CC1EC890000000000000000 /* AppDelegate.h */; };
+		2E4AD6F50000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DBE3930000000000000000 /* AppDelegate.m */; };
+		28D7D27A0000000000000000 /* addSCViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C68DF180000000000000000 /* addSCViewController.h */; };
+		1FD3C1610000000000000000 /* addSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2364CDFF0000000000000000 /* addSCViewController.m */; };
+		3FBA4FD30000000000000000 /* shSessionViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 34B5C7100000000000000000 /* shSessionViewController.h */; };
+		D98BC1300000000000000000 /* shSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1129C8B10000000000000000 /* shSessionViewController.m */; };
+		2D7F4A850000000000000000 /* TwitterViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 311057230000000000000000 /* TwitterViewController.h */; };
+		2B2B31D00000000000000000 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 643BFBB00000000000000000 /* TwitterViewController.m */; };
+		461C7DE00000000000000000 /* sessDViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D47C00000000000000000 /* sessDViewController.h */; };
+		298877AF0000000000000000 /* sessDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D19844D0000000000000000 /* sessDViewController.m */; };
+		1CF359F80000000000000000 /* QSTodoListViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 208466960000000000000000 /* QSTodoListViewController.h */; };
+		105E3C410000000000000000 /* QSTodoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF48DF0000000000000000 /* QSTodoListViewController.m */; };
+		3044CAB30000000000000000 /* tfsRootViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 33D5D7510000000000000000 /* tfsRootViewController.h */; };
+		578334B00000000000000000 /* tfsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9093FE900000000000000000 /* tfsRootViewController.m */; };
+		28EFCE5B0000000000000000 /* PolicyandRules.h in Sources */ = {isa = PBXBuildFile; fileRef = 2C80DAF90000000000000000 /* PolicyandRules.h */; };
+		1B4439100000000000000000 /* PolicyandRules.m in Sources */ = {isa = PBXBuildFile; fileRef = 545502F00000000000000000 /* PolicyandRules.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35CF91140000000000000000 /* Tweet4Swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Tweet4Swag.app"; path = "Tweet4Swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		938FDB000000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		2ACEA0E30000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		2097B0000000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		336CEBC40000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		3ED9B2DC0000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		140D1B740000000000000000 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard_iPhone.storyboard"; path = "MainStoryboard_iPhone.storyboard"; sourceTree = "<group>"; };
+		237DC5E00000000000000000 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "MainStoryboard_iPad.storyboard"; path = "MainStoryboard_iPad.storyboard"; sourceTree = "<group>"; };
+		30629D480000000000000000 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		CB81F1C00000000000000000 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		13A7553C0000000000000000 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x.png"; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		1D2162600000000000000000 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x.png"; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		2FFCD7100000000000000000 /* tweetforswag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tweetforswag.png"; path = "tweetforswag.png"; sourceTree = "<group>"; };
+		1E2797FA0000000000000000 /* Default_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default_fw.png"; path = "Default_fw.png"; sourceTree = "<group>"; };
+		2516CE1A0000000000000000 /* Default-568h@2x_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x_fw.png"; path = "Default-568h@2x_fw.png"; sourceTree = "<group>"; };
+		13418F040000000000000000 /* Default-Landscape@2x~ipad_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad_fw.png"; path = "Default-Landscape@2x~ipad_fw.png"; sourceTree = "<group>"; };
+		16C4FEE00000000000000000 /* Default-Landscape~ipad_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad_fw.png"; path = "Default-Landscape~ipad_fw.png"; sourceTree = "<group>"; };
+		F7D9F4A00000000000000000 /* Default-Portrait@2x~ipad_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad_fw.png"; path = "Default-Portrait@2x~ipad_fw.png"; sourceTree = "<group>"; };
+		1D8EEEA60000000000000000 /* Default-Portrait~ipad_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad_fw.png"; path = "Default-Portrait~ipad_fw.png"; sourceTree = "<group>"; };
+		BB9AF9000000000000000000 /* Default@2x_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x_fw.png"; path = "Default@2x_fw.png"; sourceTree = "<group>"; };
+		39E4707A0000000000000000 /* Icon_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon_fw.png"; path = "Icon_fw.png"; sourceTree = "<group>"; };
+		280F31640000000000000000 /* Icon-60@2x_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x_fw.png"; path = "Icon-60@2x_fw.png"; sourceTree = "<group>"; };
+		16070F320000000000000000 /* Icon-Small_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small_fw.png"; path = "Icon-Small_fw.png"; sourceTree = "<group>"; };
+		431D01C00000000000000000 /* Icon-Small-40@2x_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40@2x_fw.png"; path = "Icon-Small-40@2x_fw.png"; sourceTree = "<group>"; };
+		325C91060000000000000000 /* Icon-Small@2x_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x_fw.png"; path = "Icon-Small@2x_fw.png"; sourceTree = "<group>"; };
+		208751F00000000000000000 /* Icon@2x_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x_fw.png"; path = "Icon@2x_fw.png"; sourceTree = "<group>"; };
+		EB212DA00000000000000000 /* icon7-120_fw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon7-120_fw.png"; path = "icon7-120_fw.png"; sourceTree = "<group>"; };
+		3CDCD3C40000000000000000 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		2B0794AE0000000000000000 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		193255980000000000000000 /* Icon-Small-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-40@2x.png"; path = "Icon-Small-40@2x.png"; sourceTree = "<group>"; };
+		75D168200000000000000000 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default.png"; path = "Default.png"; sourceTree = "<group>"; };
+		3587D76C0000000000000000 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Default@2x.png"; sourceTree = "<group>"; };
+		23B298560000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		117793080000000000000000 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images.xcassets"; path = "Images.xcassets"; sourceTree = "<group>"; };
+		3CC1EC890000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		31DBE3930000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		2C68DF180000000000000000 /* addSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "addSCViewController.h"; path = "addSCViewController.h"; sourceTree = "<group>"; };
+		2364CDFF0000000000000000 /* addSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "addSCViewController.m"; path = "addSCViewController.m"; sourceTree = "<group>"; };
+		34B5C7100000000000000000 /* shSessionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "shSessionViewController.h"; path = "shSessionViewController.h"; sourceTree = "<group>"; };
+		1129C8B10000000000000000 /* shSessionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "shSessionViewController.m"; path = "shSessionViewController.m"; sourceTree = "<group>"; };
+		311057230000000000000000 /* TwitterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TwitterViewController.h"; path = "TwitterViewController.h"; sourceTree = "<group>"; };
+		643BFBB00000000000000000 /* TwitterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TwitterViewController.m"; path = "TwitterViewController.m"; sourceTree = "<group>"; };
+		7F2D47C00000000000000000 /* sessDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "sessDViewController.h"; path = "sessDViewController.h"; sourceTree = "<group>"; };
+		2D19844D0000000000000000 /* sessDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "sessDViewController.m"; path = "sessDViewController.m"; sourceTree = "<group>"; };
+		208466960000000000000000 /* QSTodoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QSTodoListViewController.h"; path = "QSTodoListViewController.h"; sourceTree = "<group>"; };
+		13EF48DF0000000000000000 /* QSTodoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "QSTodoListViewController.m"; path = "QSTodoListViewController.m"; sourceTree = "<group>"; };
+		33D5D7510000000000000000 /* tfsRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "tfsRootViewController.h"; path = "tfsRootViewController.h"; sourceTree = "<group>"; };
+		9093FE900000000000000000 /* tfsRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "tfsRootViewController.m"; path = "tfsRootViewController.m"; sourceTree = "<group>"; };
+		2C80DAF90000000000000000 /* PolicyandRules.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PolicyandRules.h"; path = "PolicyandRules.h"; sourceTree = "<group>"; };
+		545502F00000000000000000 /* PolicyandRules.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PolicyandRules.m"; path = "PolicyandRules.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF9CC8200000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A7F11200000000000000000 /* UIKit.framework in Frameworks */,
+				273D94450000000000000000 /* MapKit.framework in Frameworks */,
+				3C70FCDD0000000000000000 /* Foundation.framework in Frameworks */,
+				2FDBDF260000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F133E100000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				19ACF25C0000000000000000 /* Tweet4Swag */,
+				3D5770880000000000000000 /* Frameworks */,
+				246018360000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		246018360000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35CF91140000000000000000 /* Tweet4Swag.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		3D5770880000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				938FDB000000000000000000 /* UIKit.framework */,
+				2ACEA0E30000000000000000 /* MapKit.framework */,
+				2097B0000000000000000000 /* Foundation.framework */,
+				336CEBC40000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		19ACF25C0000000000000000 /* Tweet4Swag */ = {
+			isa = PBXGroup;
+			children = (
+				2C68DF180000000000000000 /* addSCViewController.h */,
+				3CC1EC890000000000000000 /* AppDelegate.h */,
+				75D168200000000000000000 /* Default.png */,
+				3587D76C0000000000000000 /* Default@2x.png */,
+				BB9AF9000000000000000000 /* Default@2x_fw.png */,
+				1E2797FA0000000000000000 /* Default_fw.png */,
+				23B298560000000000000000 /* Default-568h@2x.png */,
+				2516CE1A0000000000000000 /* Default-568h@2x_fw.png */,
+				CB81F1C00000000000000000 /* Default-Landscape.png */,
+				1D2162600000000000000000 /* Default-Landscape@2x.png */,
+				13418F040000000000000000 /* Default-Landscape@2x~ipad_fw.png */,
+				16C4FEE00000000000000000 /* Default-Landscape~ipad_fw.png */,
+				30629D480000000000000000 /* Default-Portrait.png */,
+				13A7553C0000000000000000 /* Default-Portrait@2x.png */,
+				F7D9F4A00000000000000000 /* Default-Portrait@2x~ipad_fw.png */,
+				1D8EEEA60000000000000000 /* Default-Portrait~ipad_fw.png */,
+				3CDCD3C40000000000000000 /* Icon@2x.png */,
+				208751F00000000000000000 /* Icon@2x_fw.png */,
+				39E4707A0000000000000000 /* Icon_fw.png */,
+				280F31640000000000000000 /* Icon-60@2x_fw.png */,
+				EB212DA00000000000000000 /* icon7-120_fw.png */,
+				2B0794AE0000000000000000 /* Icon-Small.png */,
+				325C91060000000000000000 /* Icon-Small@2x_fw.png */,
+				16070F320000000000000000 /* Icon-Small_fw.png */,
+				193255980000000000000000 /* Icon-Small-40@2x.png */,
+				431D01C00000000000000000 /* Icon-Small-40@2x_fw.png */,
+				117793080000000000000000 /* Images.xcassets */,
+				3ED9B2DC0000000000000000 /* Info.plist */,
+				237DC5E00000000000000000 /* MainStoryboard_iPad.storyboard */,
+				140D1B740000000000000000 /* MainStoryboard_iPhone.storyboard */,
+				2C80DAF90000000000000000 /* PolicyandRules.h */,
+				208466960000000000000000 /* QSTodoListViewController.h */,
+				7F2D47C00000000000000000 /* sessDViewController.h */,
+				34B5C7100000000000000000 /* shSessionViewController.h */,
+				33D5D7510000000000000000 /* tfsRootViewController.h */,
+				2FFCD7100000000000000000 /* tweetforswag.png */,
+				311057230000000000000000 /* TwitterViewController.h */,
+				302CCED20000000000000000 /* Supporting Files */,
+			);
+			name = "Tweet4Swag";
+			sourceTree = "<group>";
+		};
+		302CCED20000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2364CDFF0000000000000000 /* addSCViewController.m */,
+				31DBE3930000000000000000 /* AppDelegate.m */,
+				545502F00000000000000000 /* PolicyandRules.m */,
+				13EF48DF0000000000000000 /* QSTodoListViewController.m */,
+				2D19844D0000000000000000 /* sessDViewController.m */,
+				1129C8B10000000000000000 /* shSessionViewController.m */,
+				9093FE900000000000000000 /* tfsRootViewController.m */,
+				643BFBB00000000000000000 /* TwitterViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31D8BE3E0000000000000000 /* Tweet4Swag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B1C6B3A0000000000000000 /* Build configuration list for PBXNativeTarget "Tweet4Swag" */;
+			buildPhases = (
+				399380CE0000000000000000 /* Sources */,
+				EF9CC8200000000000000000 /* Frameworks */,
+				227E20590000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tweet4Swag";
+			productName = "Tweet4Swag";
+			productReference = 35CF91140000000000000000 /* Tweet4Swag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272598640000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1CD838C20000000000000000 /* Build configuration list for PBXProject "Tweet4Swag" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F133E100000000000000000;
+			productRefGroup = 246018360000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31D8BE3E0000000000000000 /* Tweet4Swag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227E20590000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B48A63E0000000000000000 /* Info.plist in Resources */,
+				107C0ED60000000000000000 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3EA6CFC00000000000000000 /* MainStoryboard_iPad.storyboard in Resources */,
+				2CD190AA0000000000000000 /* Default-Portrait.png in Resources */,
+				927127E00000000000000000 /* Default-Landscape.png in Resources */,
+				1016489E0000000000000000 /* Default-Portrait@2x.png in Resources */,
+				3E4109880000000000000000 /* Default-Landscape@2x.png in Resources */,
+				2C6BCA720000000000000000 /* tweetforswag.png in Resources */,
+				1A968B5C0000000000000000 /* Default_fw.png in Resources */,
+				2185C17C0000000000000000 /* Default-568h@2x_fw.png in Resources */,
+				FB0826600000000000000000 /* Default-Landscape@2x~ipad_fw.png in Resources */,
+				3DDB43500000000000000000 /* Default-Landscape~ipad_fw.png in Resources */,
+				BEC92AC00000000000000000 /* Default-Portrait@2x~ipad_fw.png in Resources */,
+				19FDE2080000000000000000 /* Default-Portrait~ipad_fw.png in Resources */,
+				828A2F200000000000000000 /* Default@2x_fw.png in Resources */,
+				365363DC0000000000000000 /* Icon_fw.png in Resources */,
+				247E24C60000000000000000 /* Icon-60@2x_fw.png in Resources */,
+				127602940000000000000000 /* Icon-Small_fw.png in Resources */,
+				A0C37E000000000000000000 /* Icon-Small-40@2x_fw.png in Resources */,
+				2ECB84680000000000000000 /* Icon-Small@2x_fw.png in Resources */,
+				1CF645520000000000000000 /* Icon@2x_fw.png in Resources */,
+				B21063C00000000000000000 /* icon7-120_fw.png in Resources */,
+				394BC7260000000000000000 /* Icon@2x.png in Resources */,
+				277688100000000000000000 /* Icon-Small.png in Resources */,
+				15A148FA0000000000000000 /* Icon-Small-40@2x.png in Resources */,
+				3CC09E400000000000000000 /* Default.png in Resources */,
+				31F6CACE0000000000000000 /* Default@2x.png in Resources */,
+				20218BB80000000000000000 /* Default-568h@2x.png in Resources */,
+				DE6866A00000000000000000 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		399380CE0000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3930DFEB0000000000000000 /* AppDelegate.h in Sources */,
+				2E4AD6F50000000000000000 /* AppDelegate.m in Sources */,
+				28D7D27A0000000000000000 /* addSCViewController.h in Sources */,
+				1FD3C1610000000000000000 /* addSCViewController.m in Sources */,
+				3FBA4FD30000000000000000 /* shSessionViewController.h in Sources */,
+				D98BC1300000000000000000 /* shSessionViewController.m in Sources */,
+				2D7F4A850000000000000000 /* TwitterViewController.h in Sources */,
+				2B2B31D00000000000000000 /* TwitterViewController.m in Sources */,
+				461C7DE00000000000000000 /* sessDViewController.h in Sources */,
+				298877AF0000000000000000 /* sessDViewController.m in Sources */,
+				1CF359F80000000000000000 /* QSTodoListViewController.h in Sources */,
+				105E3C410000000000000000 /* QSTodoListViewController.m in Sources */,
+				3044CAB30000000000000000 /* tfsRootViewController.h in Sources */,
+				578334B00000000000000000 /* tfsRootViewController.m in Sources */,
+				28EFCE5B0000000000000000 /* PolicyandRules.h in Sources */,
+				1B4439100000000000000000 /* PolicyandRules.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FEE89300000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		122512E80000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "Tweet4Swag";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CD838C20000000000000000 /* Build configuration list for PBXProject "Tweet4Swag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEE89300000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		2B1C6B3A0000000000000000 /* Build configuration list for PBXNativeTarget "Tweet4Swag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122512E80000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272598640000000000000000 /* Project object */;
+}

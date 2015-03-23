@@ -830,6 +830,63 @@ BOOL native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	}
 @end
 
+@interface PolicyandRules : UIViewController {
+	void *__monoObjectGCHandle;
+}
+	@property (nonatomic, assign) id webView;
+	-(void) release;
+	-(id) retain;
+	-(void) dealloc;
+	-(id) webView;
+	-(void) setWebView:(id)p0;
+	-(void) viewDidLoad;
+	-(BOOL) conformsToProtocol:(void *)p0;
+@end
+@implementation PolicyandRules { } 
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(void) dealloc
+	{
+		int gchandle = xamarin_get_gchandle (self);
+		xamarin_unregister_nsobject (self, mono_gchandle_get_target (gchandle));
+		xamarin_free_gchandle (self, gchandle);
+		mono_thread_detach_if_exiting ();
+		[super dealloc];
+	}
+
+	-(id) webView
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_1 (self, _cmd, &managed_method, "t4s.PolicyandRules, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "get_webView");
+	}
+
+	-(void) setWebView:(id)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "t4s.PolicyandRules, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "set_webView");
+	}
+
+	-(void) viewDidLoad
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_7 (self, _cmd, &managed_method, "t4s.PolicyandRules, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", "ViewDidLoad");
+	}
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "Foundation.NSObject, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
+	}
+@end
+
 @interface QSTodoListViewController : UITableViewController {
 	void *__monoObjectGCHandle;
 }
@@ -1710,6 +1767,76 @@ BOOL native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 	}
 @end
 
+@interface UIKit_UIWebView__UIWebViewDelegate : NSObject/*<UIWebViewDelegate>*/ {
+	void *__monoObjectGCHandle;
+}
+	-(void) release;
+	-(id) retain;
+	-(void) dealloc;
+	-(void) webView:(id)p0 didFailLoadWithError:(id)p1;
+	-(void) webViewDidFinishLoad:(id)p0;
+	-(void) webViewDidStartLoad:(id)p0;
+	-(BOOL) webView:(id)p0 shouldStartLoadWithRequest:(id)p1 navigationType:(NSInteger)p2;
+	-(BOOL) conformsToProtocol:(void *)p0;
+	-(id) init;
+@end
+@implementation UIKit_UIWebView__UIWebViewDelegate { } 
+	-(void) release
+	{
+		xamarin_release_trampoline (self, _cmd);
+	}
+
+	-(id) retain
+	{
+		return xamarin_retain_trampoline (self, _cmd);
+	}
+
+	-(void) dealloc
+	{
+		int gchandle = xamarin_get_gchandle (self);
+		xamarin_unregister_nsobject (self, mono_gchandle_get_target (gchandle));
+		xamarin_free_gchandle (self, gchandle);
+		mono_thread_detach_if_exiting ();
+		[super dealloc];
+	}
+
+	-(void) webView:(id)p0 didFailLoadWithError:(id)p1
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_13 (self, _cmd, &managed_method, p0, p1, "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Foundation.NSError, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "LoadFailed");
+	}
+
+	-(void) webViewDidFinishLoad:(id)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "LoadingFinished");
+	}
+
+	-(void) webViewDidStartLoad:(id)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		native_to_managed_trampoline_2 (self, _cmd, &managed_method, p0, "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "LoadStarted");
+	}
+
+	-(BOOL) webView:(id)p0 shouldStartLoadWithRequest:(id)p1 navigationType:(NSInteger)p2
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_18 (self, _cmd, &managed_method, p0, p1, p2, "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "Foundation.NSUrlRequest, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "UIKit.UIWebViewNavigationType, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "ShouldStartLoad");
+	}
+
+	-(BOOL) conformsToProtocol:(void *)p0
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_3 (self, _cmd, &managed_method, p0, "System.IntPtr, mscorlib, Version=2.0.5.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e", "Foundation.NSObject, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", "InvokeConformsToProtocol");
+	}
+
+	-(id) init
+	{
+		static MonoMethod *managed_method = NULL;
+		return native_to_managed_trampoline_4 (self, _cmd, &managed_method, "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", ".ctor");
+	}
+@end
+
 @interface Xamarin_Controls__MobileServices_ProgressLabel : UIView {
 	void *__monoObjectGCHandle;
 }
@@ -2019,6 +2146,7 @@ BOOL native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		{"tfsRootViewController", "t4s.tfsRootViewController, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", NULL },
 		{"UITableViewSource", "UIKit.UITableViewSource, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"t4s_RootTableSource", "t4s.RootTableSource, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", NULL },
+		{"PolicyandRules", "t4s.PolicyandRules, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", NULL },
 		{"UITableViewController", "UIKit.UITableViewController, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"QSTodoListViewController", "t4s.QSTodoListViewController, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", NULL },
 		{"addSCViewController", "t4s.addSCViewController, Tweet4Swag, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null", NULL },
@@ -2073,7 +2201,6 @@ BOOL native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		{"UILabel", "UIKit.UILabel, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"UINavigationItem", "UIKit.UINavigationItem, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"UITraitCollection", "UIKit.UITraitCollection, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
-		{"UIWebView", "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"UIStoryboardSegue", "UIKit.UIStoryboardSegue, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"NSData", "Foundation.NSData, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"NSDictionary", "Foundation.NSDictionary, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
@@ -2085,6 +2212,8 @@ BOOL native_to_managed_trampoline_18 (id self, SEL _cmd, MonoMethod **managed_me
 		{"UIBarButtonItem", "UIKit.UIBarButtonItem, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"UIKit_UITextField__UITextFieldDelegate", "UIKit.UITextField+_UITextFieldDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"UITextField", "UIKit.UITextField, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
+		{"UIKit_UIWebView__UIWebViewDelegate", "UIKit.UIWebView+_UIWebViewDelegate, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
+		{"UIWebView", "UIKit.UIWebView, Xamarin.iOS, Version=0.0.0.0, Culture=neutral, PublicKeyToken=84e04ff9cfb79065", NULL },
 		{"Xamarin_Controls__MobileServices_ProgressLabel", "Xamarin.Controls._MobileServices.ProgressLabel, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", NULL },
 		{"Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate", "Xamarin.Auth._MobileServices.FormAuthenticatorController+FormDelegate, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", NULL },
 		{"Xamarin_Auth__MobileServices_FormAuthenticatorController", "Xamarin.Auth._MobileServices.FormAuthenticatorController, Microsoft.WindowsAzure.Mobile.Ext, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35", NULL },
@@ -2104,61 +2233,61 @@ void xamarin_create_classes () {
 	__xamarin_class_map [4].handle = [tfsRootViewController class];
 	__xamarin_class_map [5].handle = objc_getClass ("UITableViewSource");
 	__xamarin_class_map [6].handle = [t4s_RootTableSource class];
-	__xamarin_class_map [7].handle = objc_getClass ("UITableViewController");
-	__xamarin_class_map [8].handle = [QSTodoListViewController class];
-	__xamarin_class_map [9].handle = [addSCViewController class];
-	__xamarin_class_map [10].handle = [shSessionViewController class];
-	__xamarin_class_map [11].handle = [TwitterViewController class];
-	__xamarin_class_map [12].handle = [sessDViewController class];
-	__xamarin_class_map [13].handle = objc_getClass ("NSArray");
-	__xamarin_class_map [14].handle = objc_getClass ("NSBundle");
-	__xamarin_class_map [15].handle = objc_getClass ("NSCoder");
-	__xamarin_class_map [16].handle = objc_getClass ("NSHTTPCookie");
-	__xamarin_class_map [17].handle = objc_getClass ("NSHTTPCookieStorage");
-	__xamarin_class_map [18].handle = objc_getClass ("NSIndexPath");
-	__xamarin_class_map [19].handle = objc_getClass ("NSURLRequest");
-	__xamarin_class_map [20].handle = objc_getClass ("NSValue");
-	__xamarin_class_map [21].handle = objc_getClass ("NSNumber");
-	__xamarin_class_map [22].handle = objc_getClass ("NSRunLoop");
-	__xamarin_class_map [23].handle = objc_getClass ("NSString");
-	__xamarin_class_map [24].handle = objc_getClass ("NSURL");
-	__xamarin_class_map [25].handle = objc_getClass ("NSUserDefaults");
-	__xamarin_class_map [26].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
-	__xamarin_class_map [27].handle = objc_getClass ("NSAutoreleasePool");
-	__xamarin_class_map [28].handle = objc_getClass ("NSError");
-	__xamarin_class_map [29].handle = objc_getClass ("UIApplication");
-	__xamarin_class_map [30].handle = objc_getClass ("UIBarItem");
-	__xamarin_class_map [31].handle = objc_getClass ("UIView");
-	__xamarin_class_map [32].handle = objc_getClass ("UIControl");
-	__xamarin_class_map [33].handle = objc_getClass ("UIButton");
-	__xamarin_class_map [34].handle = objc_getClass ("UIColor");
-	__xamarin_class_map [35].handle = objc_getClass ("UIKit_UIControlEventProxy");
-	__xamarin_class_map [36].handle = objc_getClass ("UIDevice");
-	__xamarin_class_map [37].handle = objc_getClass ("UIFont");
-	__xamarin_class_map [38].handle = objc_getClass ("UINavigationController");
-	__xamarin_class_map [39].handle = objc_getClass ("UIPopoverController");
-	__xamarin_class_map [40].handle = objc_getClass ("UIScrollView");
-	__xamarin_class_map [41].handle = objc_getClass ("UITableView");
-	__xamarin_class_map [42].handle = objc_getClass ("UITableViewCell");
-	__xamarin_class_map [43].handle = objc_getClass ("UITextView");
-	__xamarin_class_map [44].handle = objc_getClass ("UIWindow");
-	__xamarin_class_map [45].handle = objc_getClass ("ACAccount");
-	__xamarin_class_map [46].handle = objc_getClass ("ACAccountStore");
-	__xamarin_class_map [47].handle = objc_getClass ("NSException");
-	__xamarin_class_map [48].handle = objc_getClass ("NSNull");
-	__xamarin_class_map [49].handle = objc_getClass ("NSUserActivity");
-	__xamarin_class_map [50].handle = objc_getClass ("NSURLCache");
-	__xamarin_class_map [51].handle = objc_getClass ("TWTweetComposeViewController");
-	__xamarin_class_map [52].handle = objc_getClass ("UITextPosition");
-	__xamarin_class_map [53].handle = objc_getClass ("UITextRange");
-	__xamarin_class_map [54].handle = objc_getClass ("UITextSelectionRect");
-	__xamarin_class_map [55].handle = objc_getClass ("UILocalNotification");
-	__xamarin_class_map [56].handle = objc_getClass ("UIRefreshControl");
-	__xamarin_class_map [57].handle = objc_getClass ("UIActivityIndicatorView");
-	__xamarin_class_map [58].handle = objc_getClass ("UILabel");
-	__xamarin_class_map [59].handle = objc_getClass ("UINavigationItem");
-	__xamarin_class_map [60].handle = objc_getClass ("UITraitCollection");
-	__xamarin_class_map [61].handle = objc_getClass ("UIWebView");
+	__xamarin_class_map [7].handle = [PolicyandRules class];
+	__xamarin_class_map [8].handle = objc_getClass ("UITableViewController");
+	__xamarin_class_map [9].handle = [QSTodoListViewController class];
+	__xamarin_class_map [10].handle = [addSCViewController class];
+	__xamarin_class_map [11].handle = [shSessionViewController class];
+	__xamarin_class_map [12].handle = [TwitterViewController class];
+	__xamarin_class_map [13].handle = [sessDViewController class];
+	__xamarin_class_map [14].handle = objc_getClass ("NSArray");
+	__xamarin_class_map [15].handle = objc_getClass ("NSBundle");
+	__xamarin_class_map [16].handle = objc_getClass ("NSCoder");
+	__xamarin_class_map [17].handle = objc_getClass ("NSHTTPCookie");
+	__xamarin_class_map [18].handle = objc_getClass ("NSHTTPCookieStorage");
+	__xamarin_class_map [19].handle = objc_getClass ("NSIndexPath");
+	__xamarin_class_map [20].handle = objc_getClass ("NSURLRequest");
+	__xamarin_class_map [21].handle = objc_getClass ("NSValue");
+	__xamarin_class_map [22].handle = objc_getClass ("NSNumber");
+	__xamarin_class_map [23].handle = objc_getClass ("NSRunLoop");
+	__xamarin_class_map [24].handle = objc_getClass ("NSString");
+	__xamarin_class_map [25].handle = objc_getClass ("NSURL");
+	__xamarin_class_map [26].handle = objc_getClass ("NSUserDefaults");
+	__xamarin_class_map [27].handle = objc_getClass ("__MonoMac_NSAsyncActionDispatcher");
+	__xamarin_class_map [28].handle = objc_getClass ("NSAutoreleasePool");
+	__xamarin_class_map [29].handle = objc_getClass ("NSError");
+	__xamarin_class_map [30].handle = objc_getClass ("UIApplication");
+	__xamarin_class_map [31].handle = objc_getClass ("UIBarItem");
+	__xamarin_class_map [32].handle = objc_getClass ("UIView");
+	__xamarin_class_map [33].handle = objc_getClass ("UIControl");
+	__xamarin_class_map [34].handle = objc_getClass ("UIButton");
+	__xamarin_class_map [35].handle = objc_getClass ("UIColor");
+	__xamarin_class_map [36].handle = objc_getClass ("UIKit_UIControlEventProxy");
+	__xamarin_class_map [37].handle = objc_getClass ("UIDevice");
+	__xamarin_class_map [38].handle = objc_getClass ("UIFont");
+	__xamarin_class_map [39].handle = objc_getClass ("UINavigationController");
+	__xamarin_class_map [40].handle = objc_getClass ("UIPopoverController");
+	__xamarin_class_map [41].handle = objc_getClass ("UIScrollView");
+	__xamarin_class_map [42].handle = objc_getClass ("UITableView");
+	__xamarin_class_map [43].handle = objc_getClass ("UITableViewCell");
+	__xamarin_class_map [44].handle = objc_getClass ("UITextView");
+	__xamarin_class_map [45].handle = objc_getClass ("UIWindow");
+	__xamarin_class_map [46].handle = objc_getClass ("ACAccount");
+	__xamarin_class_map [47].handle = objc_getClass ("ACAccountStore");
+	__xamarin_class_map [48].handle = objc_getClass ("NSException");
+	__xamarin_class_map [49].handle = objc_getClass ("NSNull");
+	__xamarin_class_map [50].handle = objc_getClass ("NSUserActivity");
+	__xamarin_class_map [51].handle = objc_getClass ("NSURLCache");
+	__xamarin_class_map [52].handle = objc_getClass ("TWTweetComposeViewController");
+	__xamarin_class_map [53].handle = objc_getClass ("UITextPosition");
+	__xamarin_class_map [54].handle = objc_getClass ("UITextRange");
+	__xamarin_class_map [55].handle = objc_getClass ("UITextSelectionRect");
+	__xamarin_class_map [56].handle = objc_getClass ("UILocalNotification");
+	__xamarin_class_map [57].handle = objc_getClass ("UIRefreshControl");
+	__xamarin_class_map [58].handle = objc_getClass ("UIActivityIndicatorView");
+	__xamarin_class_map [59].handle = objc_getClass ("UILabel");
+	__xamarin_class_map [60].handle = objc_getClass ("UINavigationItem");
+	__xamarin_class_map [61].handle = objc_getClass ("UITraitCollection");
 	__xamarin_class_map [62].handle = objc_getClass ("UIStoryboardSegue");
 	__xamarin_class_map [63].handle = objc_getClass ("NSData");
 	__xamarin_class_map [64].handle = objc_getClass ("NSDictionary");
@@ -2170,13 +2299,15 @@ void xamarin_create_classes () {
 	__xamarin_class_map [70].handle = objc_getClass ("UIBarButtonItem");
 	__xamarin_class_map [71].handle = objc_getClass ("UIKit_UITextField__UITextFieldDelegate");
 	__xamarin_class_map [72].handle = objc_getClass ("UITextField");
-	__xamarin_class_map [73].handle = [Xamarin_Controls__MobileServices_ProgressLabel class];
-	__xamarin_class_map [74].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate class];
-	__xamarin_class_map [75].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController class];
-	__xamarin_class_map [76].handle = [Xamarin_Auth__MobileServices_WebAuthenticatorController_WebViewDelegate class];
-	__xamarin_class_map [77].handle = [Xamarin_Auth__MobileServices_WebAuthenticatorController class];
-	__xamarin_class_map [78].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell class];
-	__xamarin_class_map [79].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource class];
-	xamarin_setup_classmap (__xamarin_class_map, 80);
+	__xamarin_class_map [73].handle = objc_getClass ("UIKit_UIWebView__UIWebViewDelegate");
+	__xamarin_class_map [74].handle = objc_getClass ("UIWebView");
+	__xamarin_class_map [75].handle = [Xamarin_Controls__MobileServices_ProgressLabel class];
+	__xamarin_class_map [76].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDelegate class];
+	__xamarin_class_map [77].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController class];
+	__xamarin_class_map [78].handle = [Xamarin_Auth__MobileServices_WebAuthenticatorController_WebViewDelegate class];
+	__xamarin_class_map [79].handle = [Xamarin_Auth__MobileServices_WebAuthenticatorController class];
+	__xamarin_class_map [80].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController_FieldCell class];
+	__xamarin_class_map [81].handle = [Xamarin_Auth__MobileServices_FormAuthenticatorController_FormDataSource class];
+	xamarin_setup_classmap (__xamarin_class_map, 82);
 }
 
