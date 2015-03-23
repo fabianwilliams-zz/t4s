@@ -1,5 +1,5 @@
 ﻿<Properties StartupItem="t4s/Tweet4Swag.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Distribution|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Fabian's 6Plus" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

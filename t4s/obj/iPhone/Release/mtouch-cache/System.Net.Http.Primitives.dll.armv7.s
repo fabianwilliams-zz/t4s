@@ -194,12 +194,12 @@ image_table:
 
 	.long 1
 	.asciz "System.Net.Http.Primitives"
-	.asciz "CA624A30-01D6-4120-AAC0-EF1B49921CA0"
+	.asciz "9A4578EA-0F9B-416A-97CD-0C350A6263CB"
 	.asciz ""
 	.asciz "b03f5f7f11d50a3a"
 	.align 3
 
-	.long 1,4,2,28,0
+	.long 1,4,2,29,0
 .data
 	.align 3
 _mono_aot_System_Net_Http_Primitives_got:
@@ -208,7 +208,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "CA624A30-01D6-4120-AAC0-EF1B49921CA0"
+	.asciz "9A4578EA-0F9B-416A-97CD-0C350A6263CB"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -296,7 +296,7 @@ _mono_aot_module_System_Net_Http_Primitives_info:
 	.align 3
 blob:
 
-	.byte 0,12,0,39,42,47,0,128,144,8,0,0,1,98,111,101,104,109,0
+	.byte 0,12,0,39,42,47,0,128,144,8,0,0,1,115,103,101,110,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
